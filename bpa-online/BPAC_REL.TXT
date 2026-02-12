@@ -1,0 +1,180 @@
+
+    Folha:   1******************************************************Versao: 04.10
+    MS/SAS/DATASUS/BPA  SISTEMA DE INFORMACOES AMBULATORIAIS             Data Comp
+    27/01/2026          RELATORIO DE PRODUCAO AMBULATORIAL               DEZ/2025
+    *******************************************************************************
+    
+    CNES   : 2492555
+    
+    COMPET  FOLHA SEQ PROCEDIMENTO   CBO    IDADE    QTDE       PREVIA SITUACAO
+    12/2025 001    01 03.01.01.004-8 223505   000      54       340,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    02 03.01.01.004-8 223505   001     131       825,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    03 03.01.01.004-8 223505   002     117       737,10 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    04 03.01.01.004-8 223505   003      71       447,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    05 03.01.01.004-8 223505   004      79       497,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    06 03.01.01.004-8 223505   005      73       459,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    07 03.01.01.004-8 223505   006      63       396,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    08 03.01.01.004-8 223505   007      52       327,60 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    09 03.01.01.004-8 223505   008      66       415,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    10 03.01.01.004-8 223505   009      48       302,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    11 03.01.01.004-8 223505   010      38       239,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    12 03.01.01.004-8 223505   011      45       283,50 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    13 03.01.01.004-8 223505   012      44       277,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    14 03.01.01.004-8 223505   013      31       195,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    15 03.01.01.004-8 223505   014      43       270,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    16 03.01.01.004-8 223505   015      40       252,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    17 03.01.01.004-8 223505   016      50       315,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    18 03.01.01.004-8 223505   017      68       428,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    19 03.01.01.004-8 223505   018      79       497,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 001    20 03.01.01.004-8 223505   019     133       837,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    01 03.01.01.004-8 223505   020     130       819,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    02 03.01.01.004-8 223505   021     112       705,60 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    03 03.01.01.004-8 223505   022     123       774,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    04 03.01.01.004-8 223505   023      99       623,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    05 03.01.01.004-8 223505   024      86       541,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    06 03.01.01.004-8 223505   025      97       611,10 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    07 03.01.01.004-8 223505   026      98       617,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    08 03.01.01.004-8 223505   027     110       693,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    09 03.01.01.004-8 223505   028      93       585,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    10 03.01.01.004-8 223505   029      83       522,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    11 03.01.01.004-8 223505   030      91       573,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    12 03.01.01.004-8 223505   031      89       560,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    13 03.01.01.004-8 223505   032     100       630,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    14 03.01.01.004-8 223505   033      91       573,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    15 03.01.01.004-8 223505   034      75       472,50 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    16 03.01.01.004-8 223505   035      75       472,50 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    17 03.01.01.004-8 223505   036      68       428,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    18 03.01.01.004-8 223505   037      73       459,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    19 03.01.01.004-8 223505   038      80       504,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 002    20 03.01.01.004-8 223505   039      73       459,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    01 03.01.01.004-8 223505   040      84       529,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    02 03.01.01.004-8 223505   041      59       371,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    03 03.01.01.004-8 223505   042      88       554,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    04 03.01.01.004-8 223505   043      86       541,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    05 03.01.01.004-8 223505   044      83       522,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    06 03.01.01.004-8 223505   045     102       642,60 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+
+    FORMALIZACAO ----------- Valores sujeitos a criticas/alteração pelo gestor -
+    RESP.UNIDADE :           RESP.GESTOR MUNICIPAL :      RESP.GESTOR ESTADUAL :
+    Carimbo     Rubrica      Carimbo     Rubrica          Carimbo     Rubrica   
+    Data:___/___/___         Data:___/___/___             Data:___/___/___      
+
+    Folha:   2******************************************************Versao: 04.10
+    MS/SAS/DATASUS/BPA  SISTEMA DE INFORMACOES AMBULATORIAIS             Data Comp
+    27/01/2026          RELATORIO DE PRODUCAO AMBULATORIAL               DEZ/2025
+    *******************************************************************************
+    12/2025 003    07 03.01.01.004-8 223505   046      82       516,60 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    08 03.01.01.004-8 223505   047      73       459,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    09 03.01.01.004-8 223505   048      99       623,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    10 03.01.01.004-8 223505   049      58       365,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    11 03.01.01.004-8 223505   050      50       315,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    12 03.01.01.004-8 223505   051      51       321,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    13 03.01.01.004-8 223505   052      64       403,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    14 03.01.01.004-8 223505   053      56       352,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    15 03.01.01.004-8 223505   054      31       195,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    16 03.01.01.004-8 223505   055      39       245,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    17 03.01.01.004-8 223505   056      58       365,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    18 03.01.01.004-8 223505   057      51       321,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    19 03.01.01.004-8 223505   058      46       289,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 003    20 03.01.01.004-8 223505   059      49       308,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    01 03.01.01.004-8 223505   060      35       220,50 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    02 03.01.01.004-8 223505   061      35       220,50 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    03 03.01.01.004-8 223505   062      38       239,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    04 03.01.01.004-8 223505   063      44       277,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    05 03.01.01.004-8 223505   064      26       163,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    06 03.01.01.004-8 223505   065      30       189,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    07 03.01.01.004-8 223505   066      24       151,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    08 03.01.01.004-8 223505   067      43       270,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    09 03.01.01.004-8 223505   068      34       214,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    10 03.01.01.004-8 223505   069      29       182,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    11 03.01.01.004-8 223505   070      26       163,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    12 03.01.01.004-8 223505   071      29       182,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    13 03.01.01.004-8 223505   072      16       100,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    14 03.01.01.004-8 223505   073      34       214,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    15 03.01.01.004-8 223505   074      24       151,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    16 03.01.01.004-8 223505   075      16       100,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    17 03.01.01.004-8 223505   076      11        69,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    18 03.01.01.004-8 223505   077      19       119,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    19 03.01.01.004-8 223505   078      21       132,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 004    20 03.01.01.004-8 223505   079      19       119,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    01 03.01.01.004-8 223505   080      20       126,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    02 03.01.01.004-8 223505   081      18       113,40 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    03 03.01.01.004-8 223505   082      10        63,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    04 03.01.01.004-8 223505   083      17       107,10 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    05 03.01.01.004-8 223505   084       9        56,70 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    06 03.01.01.004-8 223505   085      13        81,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    07 03.01.01.004-8 223505   086       3        18,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    08 03.01.01.004-8 223505   087      17       107,10 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    09 03.01.01.004-8 223505   088      16       100,80 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    10 03.01.01.004-8 223505   089       4        25,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    11 03.01.01.004-8 223505   090      10        63,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    12 03.01.01.004-8 223505   092       3        18,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    13 03.01.01.004-8 223505   093       2        12,60 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    14 03.01.01.004-8 223505   094      13        81,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    15 03.01.01.004-8 223505   095       1         6,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    16 03.01.01.004-8 223505   096       1         6,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+
+    FORMALIZACAO ----------- Valores sujeitos a criticas/alteração pelo gestor -
+    RESP.UNIDADE :           RESP.GESTOR MUNICIPAL :      RESP.GESTOR ESTADUAL :
+    Carimbo     Rubrica      Carimbo     Rubrica          Carimbo     Rubrica   
+    Data:___/___/___         Data:___/___/___             Data:___/___/___      
+
+    Folha:   3******************************************************Versao: 04.10
+    MS/SAS/DATASUS/BPA  SISTEMA DE INFORMACOES AMBULATORIAIS             Data Comp
+    27/01/2026          RELATORIO DE PRODUCAO AMBULATORIAL               DEZ/2025
+    *******************************************************************************
+    12/2025 005    17 03.01.01.004-8 223505   097       2        12,60 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    18 03.01.01.004-8 223505   098       1         6,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    19 03.01.01.004-8 223505   100       4        25,20 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 005    20 03.01.01.004-8 223505   101       3        18,90 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 006    01 03.01.01.004-8 223505   102       1         6,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 006    02 03.01.01.004-8 223505   103       1         6,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 006    03 03.01.01.004-8 223505   106       1         6,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 006    04 03.01.01.004-8 223505   108       1         6,30 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 006    05 03.01.06.011-8 223505   000   15300         0,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 006    06 03.01.06.002-9 225125   000    4209    52.486,23 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 006    07 03.01.06.009-6 225125   000   12642   139.062,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    12/2025 006    08 03.01.06.006-1 225125   000    3834    42.174,00 058-Procedimento já realizado em outro instrumentos de registro, no mesmo cnes, no mesmo mês
+    
+                                        TOTAL DO CNES :     266.507,43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    FORMALIZACAO ----------- Valores sujeitos a criticas/alteração pelo gestor -
+    RESP.UNIDADE :           RESP.GESTOR MUNICIPAL :      RESP.GESTOR ESTADUAL :
+    Carimbo     Rubrica      Carimbo     Rubrica          Carimbo     Rubrica   
+    Data:___/___/___         Data:___/___/___             Data:___/___/___      

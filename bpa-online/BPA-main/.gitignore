@@ -1,0 +1,79 @@
+# ========================================
+# ARQUIVOS SENSÍVEIS - NUNCA COMMITAR!
+# ========================================
+
+# Variáveis de ambiente (SENHAS!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# ========================================
+# PYTHON
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================================
+# IDE / EDITOR
+# ========================================
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ========================================
+# SISTEMA OPERACIONAL
+# ========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# ========================================
+# PROJETO ESPECÍFICO
+# ========================================
+
+# Arquivos SQL gerados (contém dados sensíveis)
+arquivos_sql/*/*.sql
+!arquivos_sql/procedimento*.sql
+!arquivos_sql/lista_*.sql
+
+# Backups
+*.bak
+*.backup
+arquivos_sql_backup/
+
+# Bancos de dados locais
+*.GDB
+*.gdb
+*.FDB
+*.fdb
+
+# Logs
+*.log
+logs/

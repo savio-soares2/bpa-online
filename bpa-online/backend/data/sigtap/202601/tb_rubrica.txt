@@ -1,0 +1,42 @@
+040009Atendimento/acompanhamento em reabilitação física, mental, visual, auditiva e múltiplas deficiências202601
+040013Atendimento/acompanhamento de diagnóstico de doenças endocrinas/metabólicas e nutricionais          202601
+040017Nefrologia                                                                                          202601
+040024Cirurgia do aparelho digestivo, orgãos anexos e parede abdominal(inclui pré e pós operatório)       202601
+040028Outras cirurgias plásticas/reparadoras                                                              202601
+040030Sequenciais                                                                                         202601
+040032Transplantes de orgãos, tecidos e células                                                           202601
+040033Medicamentos para transplante                                                                       202601
+040038OPM para transplantes                                                                               202601
+040041Central Nacional de Regulação de Alta Complexidade (CNRAC)                                          202601
+040044Redesignação e Acompanhamento                                                                       202601
+040049Implementar Cirg. CV Pediátrica                                                                     202601
+040055Transplante - Histocompatibilidade                                                                  202601
+040062Doenças Raras                                                                                       202601
+040063Cadeiras de Rodas                                                                                   202601
+040065Medicamentos em Urgência                                                                            202601
+040066Cirurgias Eletivas - Componente Único                                                               202601
+040067Atenção Especializada em Saúde Auditiva                                                             202601
+040068Terapias Especializadas em Angiologia                                                               202601
+040069Tratamento de Doença Macular                                                                        202601
+040070OPME Não Relacionados ao Ato Cirúrgico                                                              202601
+040071Diagnóstico/tratamento em oncologia                                                                 202601
+040072Diagnóstico de trombofilia em gestante                                                              202601
+040073Reabilitação Pós-COVID-19                                                                           202601
+040074Telemedicina em Urgência                                                                            202601
+040075Fisioterapia Cardiovascular                                                                         202601
+040076Hemodinâmica em atendimento de urgência                                                             202601
+040077Exames Sorológicos e Imunológicos                                                                   202601
+040078QualiSUS Cardio                                                                                     202601
+040079Pré-cirúrgico em Cirurgias Prioritárias                                                             202601
+040080Programa Agora Tem Especialistas -Componente Cirúrgico                                              202601
+040081Síndrome Respiratória Aguda Grave - SRAG                                                            202601
+040082Alta Complexidade em Cardiologia                                                                    202601
+040083Cirurgia da Face e do Sistema Estomatognático                                                       202601
+040084Neurocirurgias                                                                                      202601
+040085Exames coprológicos                                                                                 202601
+040086Programa Agora Tem Especialistas -Componente Ambulatorial                                           202601
+040087Saúde Bucal                                                                                         202601
+040088Radioterapia                                                                                        202601
+040089Recursos Vinculados a Parcela Única                                                                 202601
+040090Recursos Vinculados a Emendas Parlamentares                                                         202601
+040091Materno Infântil                                                                                    202601

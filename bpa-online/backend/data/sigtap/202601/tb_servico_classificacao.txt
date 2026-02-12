@@ -1,0 +1,432 @@
+168001Atenção Especializada Em Doenças Raras                                                                                                                202601
+169001Urologia em Geral                                                                                                                                     202601
+170001Núcleo de Segurança do Paciente                                                                                                                       202601
+171001Apoio Assistencial                                                                                                                                    202601
+173001Recebimento e Inspeção                                                                                                                                202601
+174001Indivíduos em Geral                                                                                                                                   202601
+100001Atendimento em presídio até 100 presos                                                                                                                202601
+101001Saúde da família                                                                                                                                      202601
+102001Estratégia de Agentes Comunitários de Saúde - EACS                                                                                                    202601
+103001Ambulância de transporte                                                                                                                              202601
+104001Central de Regulação de Internações Hospitalares                                                                                                      202601
+105001Neurocirurgia do trauma e anomalias do desenvolvimento                                                                                                202601
+106001Testagem e aconselhamento                                                                                                                             202601
+108001Atendimento Assistencial                                                                                                                              202601
+109001Unidade sócio-educativa com até 40 adolecentes                                                                                                        202601
+110001Atenção à infertilidade                                                                                                                               202601
+111001Diagnóstico e tratamento                                                                                                                              202601
+112001Acompanhamento do pré-natal                                                                                                                           202601
+113001Assitência Domiciliar                                                                                                                                 202601
+114001Dentística                                                                                                                                            202601
+115001Residência terapêutica em saúde mental                                                                                                                202601
+116001Eletrofisiologia                                                                                                                                      202601
+117001Tratamento da lipodistrofia do portador de HIV / AIDS                                                                                                 202601
+118001Cirurgia torácica                                                                                                                                     202601
+119001Abordagem e tratamento do fumante                                                                                                                     202601
+120001Exames anatomopatológicos                                                                                                                             202601
+121001Radiologia                                                                                                                                            202601
+122001Teste Ergométrico                                                                                                                                     202601
+124001Diagnóstico/Tratamento das doenças endócrinas, metabólicas e nutricionais                                                                             202601
+125001Dispensação de Medicamentos do Componente Especializado da Assistência Farmaceutica.                                                                  202601
+126001Assistência fisioterapêutica em alterações obstétricas, neonatais e uroginecológicas                                                                  202601
+127001Tratamento clínico, cirúrgico, reparador e acompanhamento ao obeso                                                                                    202601
+128001Procedimentos destinados à obtenção do sangue para fins de assitência hemoterápica                                                                    202601
+129001Exames de histocompatibilidade por meio de sorologia                                                                                                  202601
+130001Tratamento Dialítico-Hemodiálise                                                                                                                      202601
+131001Diagnóstico em oftalmologia                                                                                                                           202601
+132001Oncologia pediátrica                                                                                                                                  202601
+133001Tratamento de Doenças das Vias Aéreas Inferiores                                                                                                      202601
+134001Acupuntura                                                                                                                                            202601
+135001Reabilitação Visual                                                                                                                                   202601
+136001Enteral                                                                                                                                               202601
+137001Exame eletrocardiográfico por telemedicina                                                                                                            202601
+138001Diagnóstico e tratamento em cintura escapular                                                                                                         202601
+139001Tratamento de recém-nascido com hipotireoidismo e fenilcetonuria                                                                                      202601
+141001Vigilância epidemiológica                                                                                                                             202601
+142001Do aparelho digestivo                                                                                                                                 202601
+143001Transporte terrestre                                                                                                                                  202601
+144001Coleta realizada fora das estrutura laboratorial                                                                                                      202601
+145001Exames Bioquimicos                                                                                                                                    202601
+146001Diagnóstica                                                                                                                                           202601
+147001NASF 1                                                                                                                                                202601
+148001Saúde mental                                                                                                                                          202601
+149001Rim                                                                                                                                                   202601
+150001Fístula arteriovenosa sem enxerto                                                                                                                     202601
+151001Medicina nuclear in vivo                                                                                                                              202601
+152001Atenção Básica à Populações Indígenas                                                                                                                 202601
+153001Acompanhamento Clínico, pré e pós operatório e hormonioterapia.                                                                                       202601
+154001Banco de valvula cardiaca humana                                                                                                                      202601
+155001Serviço de Traumatologia e Ortopedia                                                                                                                  202601
+157001Laboratorio Regional de Protese Dentaria                                                                                                              202601
+158001Serviço de Atenção Integral em Hanseniase Tipo I                                                                                                      202601
+159001Atenção Primária                                                                                                                                      202601
+160001Teleconsultoria Assíncrona                                                                                                                            202601
+161001Equipe de Consultório na Rua - Modalidade I                                                                                                           202601
+162001ADULTO                                                                                                                                                202601
+163001NEONATAL CONVENCIONAL                                                                                                                                 202601
+164001Dispensação de OPM Auxiliares de Locomoção e Ortopédicas                                                                                              202601
+165001Referência para Atenção Integral às Pessoas em Situação de Violência Sexual                                                                           202601
+166001Água de Consumo                                                                                                                                       202601
+167001ODONTOLOGIA - PROJETO SAÚDE NA ESCOLA (PSE)                                                                                                           202601
+100002Atendimento em manicômio até 100 presos                                                                                                               202601
+174002Grupos Especiais                                                                                                                                      202601
+102002Estratégia de Agentes Comunitários de Saúde com Saúde Bucal - (modalidade I)                                                                          202601
+103002Unidade de suporte básico de vida terrestre (USB)                                                                                                     202601
+104002Cental de Regulação de Consultas e Exames                                                                                                             202601
+105002Coluna e nervos periféricos                                                                                                                           202601
+106002Diagnóstico e tratamento                                                                                                                              202601
+108002Centro de referência em saúde do trabalhador CEREST estadual                                                                                          202601
+109002Unidade sócio-educativa com de 41 a 100 adolecentes                                                                                                   202601
+110002Contracepção clínica                                                                                                                                  202601
+111002Tratamento multidrogas resistentes                                                                                                                    202601
+112002Acompanhamento do pré-natal de alto risco                                                                                                             202601
+113002Internação Domiciliar                                                                                                                                 202601
+114002Endodontia                                                                                                                                            202601
+115002Atendimento psicossocial                                                                                                                              202601
+116002Cirurgia cardiovascular (adulto)                                                                                                                      202601
+117002Tratamento em queimados                                                                                                                               202601
+120002Exames citopatológicos                                                                                                                                202601
+121002Ultra-sonografia                                                                                                                                      202601
+122002Teste de Holter                                                                                                                                       202601
+124002Cirurgia de glândulas endócrinas                                                                                                                      202601
+125002Farmácia Popular                                                                                                                                      202601
+126002Assistência fisioterapêutica em alterações oncológicas                                                                                                202601
+128002Diagnóstico em hemoterapia                                                                                                                            202601
+129002Exames de histocompatibilidade por sorologia e biologia                                                                                               202601
+131002Tratamento clínico do aparelho da visão                                                                                                               202601
+132002Hematologia                                                                                                                                           202601
+133002Diagnóstico em Pneumologia                                                                                                                            202601
+134002Fitoterapia                                                                                                                                           202601
+135002Reabilitação Intelectual                                                                                                                              202601
+136002Enteral/Parenteral                                                                                                                                    202601
+138002Diagnóstico e tratamento em membros superiores                                                                                                        202601
+139002Tratamento de recém-nascido com doenças falciformes                                                                                                   202601
+141002Vigilância sanitária                                                                                                                                  202601
+142002Do aparelho respiratório                                                                                                                              202601
+143002Transporte aéreo                                                                                                                                      202601
+145002Exames hematológicos e hemostasia                                                                                                                     202601
+146002Cirúrgica                                                                                                                                             202601
+147002NASF 2                                                                                                                                                202601
+148002AIDS                                                                                                                                                  202601
+149002Medula óssea                                                                                                                                          202601
+150002Fístula arteriovenosa com enxerto                                                                                                                     202601
+151002Medicina nuclear in vitro                                                                                                                             202601
+153002Cirurgia e Acompanhamento pré e pós oreratório                                                                                                        202601
+154002Banco de tecido musculo esqueletico                                                                                                                   202601
+155002Serviço de Traumatologia e Ortopedia Pediátrica (até 21 anos de idade)                                                                                202601
+158002Serviço de Atenção Integral em Hanseniase Tipo II                                                                                                     202601
+159002Atenção Básica com Saúde Bucal                                                                                                                        202601
+160002Teleconsultoria Síncrona                                                                                                                              202601
+161002Equipe de Consultório na Rua - Modalidade II                                                                                                          202601
+162002NEONATAL                                                                                                                                              202601
+163002NEONATAL CANGURU                                                                                                                                      202601
+164002Manutenção e Adaptação de OPM Auxiliares de Locomoção e Ortopédicas                                                                                   202601
+165002Serviço de Referência para Atenção Integral à Saúde de Adolescentes em Situação de Violência Sexual                                                   202601
+166002Água de Ambiental                                                                                                                                     202601
+167002ODONTOLOGIA - PROJETO BRASIL ALFABETIZADO (PBA)                                                                                                       202601
+168002Referência em Doenças Raras                                                                                                                           202601
+169002Litotripsia                                                                                                                                           202601
+171002Apoio Matricial                                                                                                                                       202601
+173002Armazenamento e Controle                                                                                                                              202601
+101002Saúde bucal MI                                                                                                                                        202601
+100003Atendimento em presídio acima de 100 presos                                                                                                           202601
+101003Saúde bucal MII                                                                                                                                       202601
+102003Estratégia de Agentes Comunitários de Saúde com Saúde Bucal - (modalidade II)                                                                         202601
+103003Unidade de suporte avançado de vida terrestre (USA)                                                                                                   202601
+104003Central de Regulação de Urgências                                                                                                                     202601
+105003Tumores do sistema nervoso                                                                                                                            202601
+106003Diagnóstico, tratamento e capacitação técnica                                                                                                         202601
+108003Vigilância em Saúde do Trabalhador (VISAT)                                                                                                            202601
+109003Unidade sócio-educativa com de 101 a 180 adolecentes                                                                                                  202601
+110003Laqueadura                                                                                                                                            202601
+112003Parto                                                                                                                                                 202601
+113003Equipe Multidisciplinar de Atenção Domiciliar - EMAD                                                                                                  202601
+114003Periodontia clínica                                                                                                                                   202601
+115003Serviço Hospitalar para Atenção a Saúde Mental                                                                                                        202601
+116003Cirurgia cardiovascular (Pediátrico)                                                                                                                  202601
+117003Tratamento da lipoatrofia facial do portador de HIV / AIDS                                                                                            202601
+120003Monitoramento Externo da Qualidade dos Exames Citopatologicos do Colo do Útero                                                                        202601
+121003Tomografia computadorizada                                                                                                                            202601
+122003Exame Eletrocardiográfico                                                                                                                             202601
+125003Farmácia com manipulação homeopática                                                                                                                  202601
+126003Assistência fisioterapêutica em oftalmologia                                                                                                          202601
+128003Procedimentos especiais em hemoterapia                                                                                                                202601
+130003Confeccção/Intervenção de Acessos para Diálise                                                                                                        202601
+131003Tratamento cirúrgico do aparelho da visão                                                                                                             202601
+132003Oncologia clínica                                                                                                                                     202601
+133003Diagnóstico em Pneumologia por Telemedicina                                                                                                           202601
+134003Outras Práticas em Medicina Tradicional Chinesa                                                                                                       202601
+135003Reabilitação Física                                                                                                                                   202601
+136003Enteral/Parenteral, com manipulação/fabricação                                                                                                        202601
+138003Diagnóstico e tratamento em coluna vertebral e caixa torácica                                                                                         202601
+139003Tratamento de recém-nascido com fibrose cística                                                                                                       202601
+141003Vigilância ambiental                                                                                                                                  202601
+142003Do aparelho urinário                                                                                                                                  202601
+143003Transporte marítimo                                                                                                                                   202601
+145003Exames sorológicos e imunológicos                                                                                                                     202601
+147003NASF Intermunicipal                                                                                                                                   202601
+148003Geriátrico                                                                                                                                            202601
+149003Coração                                                                                                                                               202601
+151003Medicina nuclear in vivo por telemedicina                                                                                                             202601
+154003Banco de Multitecidos                                                                                                                                 202601
+155003Serviço de Traumatologia e Ortopedia de Urgência                                                                                                      202601
+158003Serviço de Atenção Integral em Hanseniase Tipo III                                                                                                    202601
+159003Academia da Saúde                                                                                                                                     202601
+160003Segunda Opinião Formativa                                                                                                                             202601
+161003Equipe de Consultório na Rua - Modalidade III                                                                                                         202601
+162003PEDIÁTRICO                                                                                                                                            202601
+163003PEDIÁTRICO                                                                                                                                            202601
+164003Dispensação de OPM Ortopédica                                                                                                                         202601
+165003Serviço de Referência para Atenção Integral à Saúde de Crianças em Situação de Violência Sexual                                                       202601
+166003Água de Hemodiálise                                                                                                                                   202601
+167003OFTALMOLOGIA - PROJETO SAÚDE NA ESCOLA (PSE)                                                                                                          202601
+168003Terapia Génica                                                                                                                                        202601
+173003Distribuição                                                                                                                                          202601
+152004Saneamento a Populações Indígenas                                                                                                                     202601
+122004Exame Eletroencefalográfico                                                                                                                           202601
+160004TELEDIAGNOSTICO                                                                                                                                       202601
+162004QUEIMADOS                                                                                                                                             202601
+163004ADULTO                                                                                                                                                202601
+164004Manutenção e Adaptação de OPM Ortopédica                                                                                                              202601
+165004Serviço de Referência para Atenção Integral à Saúde de Homens em Situação de Violência Sexual                                                         202601
+166004Água Mineral                                                                                                                                          202601
+167004OFTALMOLOGIA - PROJETO BRASIL ALFABETIZADO (PBA)                                                                                                      202601
+173004Transporte                                                                                                                                            202601
+125004Dispensação de medicamentos estratégicos                                                                                                              202601
+126004Assistência fisioterapêutica cardiovasculares e pneumo-funcionais                                                                                     202601
+128004Medicina transfusional                                                                                                                                202601
+130004Tratamento Nefrologia em Geral                                                                                                                        202601
+131004Projeto Olhar Brasil                                                                                                                                  202601
+132004Radioterapia                                                                                                                                          202601
+134004Práticas Corpo-mente                                                                                                                                  202601
+135004Reabilitação visual/mental/múltiplas deficiências                                                                                                     202601
+138004Diagnóstico e tratamento em cintura pélvica                                                                                                           202601
+139004Tratamento de recém-nascido com outras doenças congênitas                                                                                             202601
+140004Estabilização de paciente crítico/grave                                                                                                               202601
+141004Núcleo de vigilância hospitalar                                                                                                                       202601
+142004Do aparelho ginecológico                                                                                                                              202601
+145004Exames coprológicos                                                                                                                                   202601
+147004NASF 3                                                                                                                                                202601
+148004Fibrose cística                                                                                                                                       202601
+149004Pulmão                                                                                                                                                202601
+100004Atendimento em manicômio acima de 100 presos                                                                                                          202601
+101004Saúde da Família para a População Ribeirinha                                                                                                          202601
+104004Unidade de autorizações de TFD intermunicipais                                                                                                        202601
+105004Neurocirurgia vascular                                                                                                                                202601
+106004Assistência Domiciliar Terapêutica em AIDS-ADT                                                                                                        202601
+107004Diagnóstico em Audiologia/Otologia                                                                                                                    202601
+109004Unidade sócio-educativa com mais de 180 adolecentes                                                                                                   202601
+110004Vasectomia                                                                                                                                            202601
+112004Parto em gestação de alto risco                                                                                                                       202601
+113004Equipe Multidisciplinar de Apoio - EMAP                                                                                                               202601
+114004Moldagem/Manutenção                                                                                                                                   202601
+115004Serviço Residencial Terapêutico Tipo I - SRT tipo I                                                                                                   202601
+116004Cirurgia vascular                                                                                                                                     202601
+121004Ressonância magnética                                                                                                                                 202601
+159004Estratégia de Saúde da Família                                                                                                                        202601
+152005Atenção Especializada a Populações Indígenas                                                                                                          202601
+122005Teste Ergométrico por Telemedicina                                                                                                                    202601
+160005TELE-EDUCACAO                                                                                                                                         202601
+162005DOENÇA CORONARIANA (UCO)                                                                                                                              202601
+164005Dispensação de OPM Auditiva                                                                                                                           202601
+165005Serviço de Referência para Atenção Integral à Saúde de Pessoas Idosas em Situação de Violência Sexual                                                 202601
+166005Alimentos                                                                                                                                             202601
+125005Dispensação de medicamentos básicos                                                                                                                   202601
+126005Assistência fisioterapêutica nas disfunções músculo-esqueléticas (todas as origens)                                                                   202601
+130005Tratamento Diálitico Peritonial                                                                                                                       202601
+131005Diagnóstico em Oftalmologia por Telemedicina                                                                                                          202601
+132005Oncologia cirúrgica                                                                                                                                   202601
+134005Homeopatia                                                                                                                                            202601
+135005Reabiliatação Auditiva                                                                                                                                202601
+138005Diagnóstico e tratamento em membros inferiores                                                                                                        202601
+139005Acompanhamento a pacientes com diagnósticos de Hiperplasia Adrenal Congênita                                                                          202601
+140005Atendimento ao paciente com Acidente Vascular Cerebral (AVC)                                                                                          202601
+141005Vigilância de Zoonoses                                                                                                                                202601
+145005Exames de uroanálise                                                                                                                                  202601
+148005Cirúrgico / Diagnóstico                                                                                                                               202601
+149005Córnea / Esclera                                                                                                                                      202601
+101005Saúde da Família para a População Ribeirinha-Saúde Bucal MI                                                                                           202601
+103005Unidade de Suporte Básico de vida: Equipe Embarcação                                                                                                  202601
+104005Unidade de autorizações de TFD interestaduais                                                                                                         202601
+105005Tratamento neurocirúrgico da dor funcional                                                                                                            202601
+106005Unidade Dispensadora de Medicamentos - UDM                                                                                                            202601
+107005Implante Coclear                                                                                                                                      202601
+109005Atenção Básica à Adolescentes em Unidade Socioeducativa                                                                                               202601
+112005Centro de parto normal                                                                                                                                202601
+113005Equipe de cuidados domiciliares                                                                                                                       202601
+114005Cirurgia oral                                                                                                                                         202601
+115005Serviço Residencial Terapêutico Tipo II - SRT tipo II                                                                                                 202601
+116005Cardiologia intervencionista (hemodinâmica)                                                                                                           202601
+159005Saúde Bucal                                                                                                                                           202601
+159006Núcleo Ampliado de Saúde da Família e Atenção Primária                                                                                                202601
+122006Teste Holter por Telemedicina                                                                                                                         202601
+161006TELECONSULTA                                                                                                                                          202601
+164006Manutenção e Adaptação de OPM Auditiva                                                                                                                202601
+165006Serviço de referência para interrupção de gravidez nos casos previstos em LEI                                                                         202601
+166006Células, Tecidos e Órgãos                                                                                                                             202601
+125006Farmácia Hospitalar                                                                                                                                   202601
+126006Assistência fisioterapêutica em queimados                                                                                                             202601
+130006Tratamento em DRC                                                                                                                                     202601
+131006Projeto Olhar Brasil - Programa Saúde na Escola (PSE)                                                                                                 202601
+134006Termalismo/Crenoterapia                                                                                                                               202601
+139006Acompanhamento a pacientes com diagnósticos de Deficiência Biotinidase                                                                                202601
+140006Pronto Atendimento Clínico                                                                                                                            202601
+145006Exames hormonais                                                                                                                                      202601
+148006Acompanhamento pós-transplante de medula óssea                                                                                                        202601
+149006Fígado                                                                                                                                                202601
+101006Saúde da Família Fluvial                                                                                                                              202601
+103006Veículos de intervenção rápida                                                                                                                        202601
+104006Central Estadual de Regulação da Alta Complexidade                                                                                                    202601
+105006Investigação e cirurgia de epilepsia                                                                                                                  202601
+107006Triagem Auditiva Neonatal                                                                                                                             202601
+112006Casa da Gestante, Bebê e Puérpera                                                                                                                     202601
+114006Cirurgia buco-maxilo-facial                                                                                                                           202601
+115006UA Adulto                                                                                                                                             202601
+116006Cardiologia Endovascular Extracardíaco                                                                                                                202601
+121006Radiologia intervencionista                                                                                                                           202601
+160006TELECONSULTA                                                                                                                                          202601
+159007Atenção Primária para População Ribeirinha                                                                                                            202601
+121007Radiologia por telemedicina                                                                                                                           202601
+164007Dispensação de OPM Oftalmológica                                                                                                                      202601
+165007Atenção Ambulatorial  ás Pessoas em Situação de Violência Sexual                                                                                      202601
+166007Medicamentos                                                                                                                                          202601
+122007Exame Eletrocardiografico por Telemedicina                                                                                                            202601
+123007OPM em odontologia                                                                                                                                    202601
+125007Farmácia Viva                                                                                                                                         202601
+126007Assistência fisioterapêutica nas alterações em neurologia                                                                                             202601
+131007Projeto Olhar Brasil - Programa Brasil Alfabetizado (PBA)                                                                                             202601
+134007Antroposofia Aplicada à Saúde                                                                                                                         202601
+135007Oficina Ortopédica Fixa                                                                                                                               202601
+140007Pronto Atendimento Pediátrico                                                                                                                         202601
+145007Exames de  vigilância epidemiológica e  ambiental                                                                                                     202601
+149007Pâncreas                                                                                                                                              202601
+101007Saúde da Família Fluvial com Saúde Bucal                                                                                                              202601
+103007Outros veículos                                                                                                                                       202601
+104007Regulação Nacional de Alta Complexidade                                                                                                               202601
+105007Tratamento endovascular                                                                                                                               202601
+112007Ambulatório de Seguimento do RN e Criança Egresso de Unidade Neonatal                                                                                 202601
+114007Atendimento à pessoa com deficiência                                                                                                                  202601
+115007UA Infantojuvenil                                                                                                                                     202601
+116007Cardiologia Clínica                                                                                                                                   202601
+160007TELEMONITORAMENTO                                                                                                                                     202601
+152008Hospitalidade Indígena                                                                                                                                202601
+121008Ultra-sonografia por telemedicina                                                                                                                     202601
+160008TELEORIENTACAO                                                                                                                                        202601
+164008Adaptação de OPM Oftalmológica                                                                                                                        202601
+165008Coleta de  Vestígios de Violência Sexual                                                                                                              202601
+166008Saneantes Domissanitários                                                                                                                             202601
+122008Exame Eletroencefalografico por Telemedicina                                                                                                          202601
+123008OPM buco-maxilo-facial                                                                                                                                202601
+126008Diagnóstico cinético funcional                                                                                                                        202601
+134008Práticas Expressivas                                                                                                                                  202601
+135008Oficina Ortopédica Intinerante                                                                                                                        202601
+140008Pronto Atendimento Obstétrico                                                                                                                         202601
+145008Exames toxicológicos ou de monitorização terapêutica                                                                                                  202601
+149008Retirada de orgãos                                                                                                                                    202601
+101008ESF Tipo I, II, III, IV ou Transitória                                                                                                                202601
+103008Ambulância de resgate                                                                                                                                 202601
+104008Regulação Ambulatorial de Média Complexidade                                                                                                          202601
+105008Neurocirurgia funcional estereotáxica                                                                                                                 202601
+107008Atenção Especializada às Pessoas com Deficiência Auditiva                                                                                             202601
+112008Ambulatório  de Gestação e Puerpério de Alto Risco                                                                                                    202601
+114008Odontopediatria                                                                                                                                       202601
+115008Unidade de Atenção em Regime Residencial                                                                                                              202601
+116008Serviço de Atenção Cardiovascular/Cardiologia Angiologia                                                                                              202601
+159008Consultório na Rua                                                                                                                                    202601
+149009Pele                                                                                                                                                  202601
+152009Gestão da Atenção e Saneamento à Populações Indígenas                                                                                                 202601
+159009Atenção Primária para População Prisional                                                                                                             202601
+160009TELEINTERCONSULTA                                                                                                                                     202601
+164009Substitução/Troca de OPM                                                                                                                              202601
+166009Produtos para a Saúde                                                                                                                                 202601
+122009Exame Eletroneuromiografia                                                                                                                            202601
+134009Ayurveda                                                                                                                                              202601
+135009Oficina Ortopédica Intinerante Fluvial                                                                                                                202601
+140009Pronto Atendimento Psiquiátrico                                                                                                                       202601
+145009Exames microbiológicos                                                                                                                                202601
+101009ESF Tipo I, II, III, IV ou Transitória com Saúde Bucal MI                                                                                             202601
+104009Regulação do Acesso a Ações e Serviços de Saúde                                                                                                       202601
+105009Polissonografia                                                                                                                                       202601
+114009Disfunsão temporomandibular                                                                                                                           202601
+115009Tratamento em Regime de Internação para Transtornos Mentais e Dependência Química                                                                     202601
+121009Tomografia computadorizada por telemedicina                                                                                                           202601
+152010Saúde Bucal à Populações Indígenas                                                                                                                    202601
+159010Atenção Primária para Adolescentes em Unidade Socioeducativa                                                                                          202601
+160010TELETRIAGEM                                                                                                                                           202601
+164010Dispensação de OPM em Gastroenterologia                                                                                                               202601
+166010Cosméticos                                                                                                                                            202601
+101010ESF Tipo I, II, III, IV ou Transitória com Saúde Bucal MII                                                                                            202601
+103010Motolância                                                                                                                                            202601
+114010Estomatologia                                                                                                                                         202601
+115010DESINST de Pessoas com Transtorno  Mental em Conflito com a Lei                                                                                       202601
+121010Ressonância magnética por telemedicina                                                                                                                202601
+122010Exame videoeletroencefalografia                                                                                                                       202601
+123010OPM em queimados                                                                                                                                      202601
+134010Práticas Naturais                                                                                                                                     202601
+135010Atenção Fonoaudiológica                                                                                                                               202601
+140010Pronto Atendimento Oftalmológico                                                                                                                      202601
+145010Exames em outros líquidos biológicos                                                                                                                  202601
+149010Válvulas cardíacas                                                                                                                                    202601
+115011Promoção à Saúde Mental                                                                                                                               202601
+103011Unidade de Suporte Avançado de vida: Equipe Embarcação                                                                                                202601
+164011Dispensação de OPM em Urologia                                                                                                                        202601
+114011Implantodondia                                                                                                                                        202601
+166011Desinfestantes                                                                                                                                        202601
+149011Osteocondroligamentos                                                                                                                                 202601
+145011Exames de genética                                                                                                                                    202601
+140011Pronto Atendimento Odontológico                                                                                                                       202601
+135011Atenção Fisioterapeutica                                                                                                                              202601
+134011Práticas Manuais                                                                                                                                      202601
+101011ESF Transitória                                                                                                                                       202601
+160011TELERREGULACAO                                                                                                                                        202601
+123011OPM em nefrologia                                                                                                                                     202601
+122011Potenciais Evocados                                                                                                                                   202601
+121011Radiologia intervencionista por telemedicina                                                                                                          202601
+114012Odontogeriatria                                                                                                                                       202601
+103012Equipe Aeromédico                                                                                                                                     202601
+101012Saúde da Família para a População Ribeirinha - Saúde Bucal MII                                                                                        202601
+166012Imunobiológicos                                                                                                                                       202601
+164012Confecção de OPM Auxiliares de Locomoção e Ortopédicas                                                                                                202601
+122012Potenciais Evocados por Telemedicina                                                                                                                  202601
+149012Separação, avaliação biomicroscópica e conservação da córnea/esclera                                                                                  202601
+145012Exames para triagem neonatal                                                                                                                          202601
+140012Pronto Socorro Pediátrico                                                                                                                             202601
+135012Atenção à Saúde das Pessoas Ostomizadas I                                                                                                             202601
+134012Práticas Psicodinâmicas                                                                                                                               202601
+123012OPM - Projeto Olhar Brasil                                                                                                                            202601
+121012Mamografia                                                                                                                                            202601
+149013Contagem endotelial corneana                                                                                                                          202601
+114013Ortodontia                                                                                                                                            202601
+145013Exames imunohematológicos                                                                                                                             202601
+101013ESB MI                                                                                                                                                202601
+134013Ozônioterapia                                                                                                                                         202601
+123013OPM Projeto Olhar Brasil - Programa Saúde na Escola (PSE)                                                                                             202601
+121013Mamografia por Telemedicina                                                                                                                           202601
+140013Pronto Socorro Obstétrico                                                                                                                             202601
+135013Atenção à Saúde das Pessoas Ostomizadas II                                                                                                            202601
+166013Insumos Farmacêuticos                                                                                                                                 202601
+134014Aromaterapia                                                                                                                                          202601
+123014OPM Projeto Olhar Brasil - Programa Brasil Alfabetizado (PBA)                                                                                         202601
+101014ESB MII                                                                                                                                               202601
+114014Prótese Dentária                                                                                                                                      202601
+166014Material Biológico                                                                                                                                    202601
+140014Pronto Socorro Cardiovascular                                                                                                                         202601
+149014Acompanhamento de paciente transplantado                                                                                                              202601
+149015Ações para doação e captação de órgãos e tecidos                                                                                                      202601
+134015Imposição de Mãos                                                                                                                                     202601
+166015Sangue e Hemoderivados                                                                                                                                202601
+114015Radiologia Odontológica e Imaginologia                                                                                                                202601
+140015Pronto Socorro Neurologia/Neurocirurgia                                                                                                               202601
+149016Retirada de globo ocular humano para transplante                                                                                                      202601
+140016Pronto Socorro Traumato-Ortopédico                                                                                                                    202601
+114016Acupuntura na Odontologia                                                                                                                             202601
+166016Surtos de Toxinfecção                                                                                                                                 202601
+149017Transplante de Membrana Amniótica                                                                                                                     202601
+166017Diversos                                                                                                                                              202601
+140017Pronto Socorro Odontológico                                                                                                                           202601
+114017Ortopedia funcional dos maxilares                                                                                                                     202601
+114018Odontologia hospitalar                                                                                                                                202601
+140018Pronto Socorro Oftalmológico                                                                                                                          202601
+114019Patologia Oral e Máxilo Fácial                                                                                                                        202601
+140019Pronto Socorro Geral/Clínico                                                                                                                          202601
+114020Prótese Buco Maxilo Facial                                                                                                                            202601

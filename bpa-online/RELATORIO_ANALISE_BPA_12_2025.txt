@@ -1,0 +1,264 @@
+====================================================================================================
+ANÁLISE DA SÍNTESE BPA - COMPETÊNCIA 12/2025
+====================================================================================================
+
+====================================================================================================
+1. TOTAL FATURADO/APROVADO POR CNES (CONSOLIDADO)
+====================================================================================================
+
+CNES       UNIDADE                                                   QTD      VALOR (R$)
+----------------------------------------------------------------------------------------------------
+2467852    VIGILANCIA SANITARIA                                     652            0.00
+2467909    LABORATORIO DA SEMUS                                     194          549.92
+2467925    CENTRO DE ATENCAO ESPECIALIZADA A S                      270          880.86
+2467968    CAPS II CENTRO DE ATENCAO PSICOSOCI                    1,831        6,024.85
+2492482    CENTRO DE ATENCAO ESP A SAUDE FRANC                      274        1,122.00
+2492547    CENTRO DE ESPECIALIDADES ODONTOLOGI                      683        1,012.26
+2492555    UNIDADE DE PRONTO ATENDIMENTO SUL                     56,021      330,652.38
+2492563    POLICLINICA DE TAQUARALTO                                179          977.80
+2593122    ETICA LABORATORIO                                      7,147       42,672.00
+2755246    HOSPITAL OSWALDO CRUZ                                     11          773.08
+2755289    UNIDADE DE PRONTO ATENDIMENTO NORTE                   12,619       55,157.98
+3110982    AKC DIAGNOSTICOS                                         325       30,930.63
+3218708    CENTRO DE REFERENCIA EM SAUDE DO TR                       19           17.26
+3397165    INSTITUTO DE OFTALMOLOGIA LARRISA C                       91        1,619.05
+3473457    REDE EXEMPLO LABORATORIOS                             12,800       71,281.73
+3696278    FULBRA                                                    24           13.23
+3708373    SAMU USA 02 PALMAS                                       198            0.00
+4392388    CENTRO DE ATENCAO PSICOSSOCIAL INF                       130          261.00
+5268117    LABORATORIO MAIS SAUDE                                15,988       95,622.55
+5504694    AMBULATORIO MUNICIPAL DE ATENCAO A                       432        4,112.15
+6061478    CAPS AD CENTRO DE ATENCAO PSICOSSOC                    1,748        4,248.60
+6349609    LABEXATO LABORATORIO DE ANALISES CL                   19,617      118,952.73
+6404375    COMPLEXO REGULADOR DE SERVICOS DE S                       98          485.10
+6425348    LABORATORIO REGIONAL DE PROTESE DEN                      103        2,974.18
+6524516    BIOLAB                                                25,680      151,535.05
+6598129    INSTITUTO UROLOGICO DE PALMAS                             18          178.68
+6881491    INSTITUTO DE OFTALMOLOGIA DO TOCANT                      433        5,677.23
+6943624    CENTRAL DE REGULACAO SAMU 192 PALMA                    4,049            0.00
+6966950    SAMU USA 01 PALMAS                                       200            0.00
+6968252    SAMU USB 03 PALMAS                                       236            0.00
+6968392    SAMU USB 04 PALMAS                                       226            0.00
+6968996    SAMU USB 05 PALMAS                                       200            0.00
+6969046    SAMU USB 06 PALMAS                                       219            0.00
+7015267    HOSPITAL DE OLHOS YANO                                 4,873       41,270.76
+7327684    MEDIMAGEM TOCANTINS                                      336       34,589.52
+7373120    HOSPITAL PALMAS MEDICAL HPM                              640       75,580.78
+7521901    LABORATORIO CLINICO SAO GABRIEL                       20,782      118,757.15
+7759290    CREFISUL CENTRO DE REFERENCIA EM FI                       43          239.40
+7774796    NEUROMED                                                  39        1,053.00
+9369597    GENESIS CENTRO DE MEDICINA DIAGNOST                   18,918      109,924.41
+9932747    HC OLHOS                                                 590       10,825.51
+----------------------------------------------------------------------------------------------------
+TOTAL                                                            208,936    1,319,972.83
+
+
+====================================================================================================
+2. VALORES NÃO APROVADOS POR CNES (DETALHADO POR MOTIVO)
+====================================================================================================
+
+CNES: 2467925 - CENTRO DE ATENCAO ESPECIALIZADA A S
+--------------------------------------------------------------------------------
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 29 | Valor perdido: R$ 31.50
+
+  Motivo: CNS PACIENTE, INVALIDO.
+    Quantidade perdida: 1 | Valor perdido: R$ 6.30
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 15 | Valor perdido: R$ 0.00
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE | &l7.27C(s0p12H
+    Quantidade perdida: 1 | Valor perdido: R$ 0.00
+
+  ** SUBTOTAL CNES 2467925: 46 registros | R$ 37.80
+
+CNES: 2467968 - CAPS II CENTRO DE ATENCAO PSICOSOCI
+--------------------------------------------------------------------------------
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 507 | Valor perdido: R$ 2,709.00
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 19 | Valor perdido: R$ 100.80
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE | &l7.27C(s0p12H
+    Quantidade perdida: 11 | Valor perdido: R$ 56.70
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE 
+    Quantidade perdida: 1 | Valor perdido: R$ 6.30
+
+  Motivo: PROCED.EXIGE SERV./CLASS. NAO CADAST. NO CNES
+    Quantidade perdida: 49 | Valor perdido: R$ 0.00
+
+  Motivo: PROCED.EXIGE SERV./CLASS. NAO CADAST. NO CNES | &l7.27C(s0p12H
+    Quantidade perdida: 2 | Valor perdido: R$ 0.00
+
+  ** SUBTOTAL CNES 2467968: 589 registros | R$ 2,872.80
+
+CNES: 2492482 - CENTRO DE ATENCAO ESP A SAUDE FRANC
+--------------------------------------------------------------------------------
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 40 | Valor perdido: R$ 400.00
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 68 | Valor perdido: R$ 250.00
+
+  Motivo: PROF.COM MAIS 2 VINC.PUBLICO OU PROF.COM CARG.H MAIOR 168H
+    Quantidade perdida: 24 | Valor perdido: R$ 240.00
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE 
+    Quantidade perdida: 2 | Valor perdido: R$ 20.00
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE | &l7.27C(s0p12H
+    Quantidade perdida: 2 | Valor perdido: R$ 0.00
+
+  ** SUBTOTAL CNES 2492482: 136 registros | R$ 910.00
+
+CNES: 2492547 - CENTRO DE ESPECIALIDADES ODONTOLOGI
+--------------------------------------------------------------------------------
+  Motivo: PROCED.NAO ACEITO PELA REGRA CONDICIONADA 0001
+    Quantidade perdida: 267 | Valor perdido: R$ 1,105.05
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 51 | Valor perdido: R$ 402.04
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 74 | Valor perdido: R$ 321.30
+
+  Motivo: PROCED.NAO ACEITO PELA REGRA CONDICIONADA 0001 | CNS DO PROFISSIONAL NAO ENCONTR
+    Quantidade perdida: 105 | Valor perdido: R$ 65.76
+
+  Motivo: PROCED.NAO ACEITO PELA REGRA CONDICIONADA 0001 | &l7.27C(s0p12H
+    Quantidade perdida: 8 | Valor perdido: R$ 46.81
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE 
+    Quantidade perdida: 2 | Valor perdido: R$ 6.30
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE | &l7.27C(s0p12H
+    Quantidade perdida: 1 | Valor perdido: R$ 6.30
+
+  Motivo: PROCED.NAO ACEITO PELA REGRA CONDICIONADA 0001 | CNS DO PROFISSIONAL NAO ENCONTR
+    Quantidade perdida: 5 | Valor perdido: R$ 0.00
+
+  ** SUBTOTAL CNES 2492547: 513 registros | R$ 1,953.56
+
+CNES: 2492555 - UNIDADE DE PRONTO ATENDIMENTO SUL  
+--------------------------------------------------------------------------------
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 356 | Valor perdido: R$ 0.00
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE | &l7.27C(s0p12H
+    Quantidade perdida: 10 | Valor perdido: R$ 0.00
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 63 | Valor perdido: R$ 0.00
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE 
+    Quantidade perdida: 3 | Valor perdido: R$ 0.00
+
+  ** SUBTOTAL CNES 2492555: 432 registros | R$ 0.00
+
+CNES: 2492563 - POLICLINICA DE TAQUARALTO          
+--------------------------------------------------------------------------------
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 83 | Valor perdido: R$ 510.65
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 6 | Valor perdido: R$ 48.90
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE | &l7.27C(s0p12H
+    Quantidade perdida: 3 | Valor perdido: R$ 20.00
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE 
+    Quantidade perdida: 1 | Valor perdido: R$ 10.00
+
+  ** SUBTOTAL CNES 2492563: 93 registros | R$ 589.55
+
+CNES: 2755289 - UNIDADE DE PRONTO ATENDIMENTO NORTE
+--------------------------------------------------------------------------------
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 736 | Valor perdido: R$ 3,686.80
+
+  Motivo: CNS PACIENTE, INVALIDO.
+    Quantidade perdida: 101 | Valor perdido: R$ 422.80
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE | &l7.27C(s0p12H
+    Quantidade perdida: 19 | Valor perdido: R$ 110.00
+
+  Motivo: CNS PACIENTE, INVALIDO. | &l7.27C(s0p12H
+    Quantidade perdida: 2 | Valor perdido: R$ 0.00
+
+  ** SUBTOTAL CNES 2755289: 858 registros | R$ 4,219.60
+
+CNES: 4392388 - CENTRO DE ATENCAO PSICOSSOCIAL INF 
+--------------------------------------------------------------------------------
+  Motivo: PROCEDIMENTO SEM ORCAMENTO
+    Quantidade perdida: 15 | Valor perdido: R$ 0.00
+
+  Motivo: PROCED.EXIGE SERV./CLASS. NAO CADAST. NO CNES
+    Quantidade perdida: 4 | Valor perdido: R$ 0.00
+
+  ** SUBTOTAL CNES 4392388: 19 registros | R$ 0.00
+
+CNES: 5504694 - AMBULATORIO MUNICIPAL DE ATENCAO A 
+--------------------------------------------------------------------------------
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 37 | Valor perdido: R$ 370.00
+
+  Motivo: PROF.COM MAIS 2 VINC.PUBLICO OU PROF.COM CARG.H MAIOR 168H
+    Quantidade perdida: 3 | Valor perdido: R$ 30.00
+
+  Motivo: PROF.COM MAIS 2 VINC.PUBLICO OU PROF.COM CARG.H MAIOR 168H | &l7.27C(s0p12H
+    Quantidade perdida: 1 | Valor perdido: R$ 10.00
+
+  ** SUBTOTAL CNES 5504694: 41 registros | R$ 410.00
+
+CNES: 6061478 - CAPS AD CENTRO DE ATENCAO PSICOSSOC
+--------------------------------------------------------------------------------
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 111 | Valor perdido: R$ 291.06
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE
+    Quantidade perdida: 89 | Valor perdido: R$ 270.90
+
+  Motivo: CBO NAO CADASTRADO NO CNES | CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE 
+    Quantidade perdida: 5 | Valor perdido: R$ 12.60
+
+  Motivo: CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE | &l7.27C(s0p12H
+    Quantidade perdida: 2 | Valor perdido: R$ 6.93
+
+  Motivo: PROCED.EXIGE SERV./CLASS. NAO CADAST. NO CNES
+    Quantidade perdida: 4 | Valor perdido: R$ 0.00
+
+  ** SUBTOTAL CNES 6061478: 211 registros | R$ 581.49
+
+====================================================================================================
+TOTAL GERAL DE PERDAS: 2,938 registros | R$ 11,574.80
+====================================================================================================
+
+
+====================================================================================================
+3. RESUMO DE PERDAS POR MOTIVO (TODOS OS CNES)
+====================================================================================================
+
+MOTIVO                                                                        QTD      VALOR (R$)
+----------------------------------------------------------------------------------------------------
+CNS DO PROFISSIONAL NAO ENCONTRADO NO ESTAB/EQUIPE                          2,050        8,370.24
+CBO NAO CADASTRADO NO CNES                                                    297        1,277.84
+PROCED.NAO ACEITO PELA REGRA CONDICIONADA 0001                                385        1,217.62
+CNS PACIENTE, INVALIDO.                                                       104          429.10
+PROF.COM MAIS 2 VINC.PUBLICO OU PROF.COM CARG.H MAIOR 168H                     28          280.00
+PROCED.EXIGE SERV./CLASS. NAO CADAST. NO CNES                                  59            0.00
+PROCEDIMENTO SEM ORCAMENTO                                                     15            0.00
+----------------------------------------------------------------------------------------------------
+TOTAL                                                                       2,938       11,574.80
+
+
+====================================================================================================
+4. RESUMO EXECUTIVO
+====================================================================================================
+
+Total de CNES analisados: 41
+Total APROVADO:        208,936 registros | R$    1,319,972.83
+Total NÃO APROVADO:      2,938 registros | R$       11,574.80
+Percentual de perda: 0.87%

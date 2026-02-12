@@ -1,0 +1,19 @@
+================================================================================
+INVESTIGACAO: CAMPOS VAZIOS
+================================================================================
+
+[API] Campos na API BiServer (100 registros):
+  prd_cnpj                    0/100
+  prd_servico                 0/100
+  prd_classificacao           0/100
+  prd_cid                    33/100
+  prd_naut                    0/100
+  prd_bairro_pcnte           87/100
+
+[BANCO] Campos no Postgres (100 registros):
+  prd_cnpj                    0/100
+  prd_servico                 0/100
+  prd_classificacao           0/100
+  prd_cid                    43/100
+  prd_naut                    0/100
+  prd_bairro_pcnte           88/100

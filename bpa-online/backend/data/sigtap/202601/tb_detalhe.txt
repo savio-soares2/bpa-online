@@ -1,0 +1,48 @@
+001Inclui valor da anestesia                                                                           202601
+003Admite longa permanência                                                                            202601
+004Admite permanência à maior                                                                          202601
+005Admite liberação de quantidade na AIH                                                               202601
+006CNRAC                                                                                               202601
+007Permanência por dia                                                                                 202601
+008Não permite mudança de procedimento                                                                 202601
+009Exige CPF/CNS                                                                                       202601
+011Permite alta direta de UTI                                                                          202601
+012Exige idade no BPA (Consolidado)                                                                    202601
+013Verifica habilitação de terceiro                                                                    202601
+014Admite APAC de Continuidade                                                                         202601
+015Admitido apenas em Hosp.Espec/Psiquiatria                                                           202601
+017Exige Informação da OPM                                                                             202601
+020Monitoramento do CEO                                                                                202601
+021Não Exige CBO                                                                                       202601
+022Exige registro na APAC de dados complementares                                                      202601
+023Registro no SISCOLO                                                                                 202601
+024Registro no SISPRENATAL                                                                             202601
+025Registro no SISMAMA                                                                                 202601
+026Registro de Procedimentos Secundário Compativel                                                     202601
+029Admite período maior para a apresentação                                                            202601
+033APAC com validade fixa de 03 competências                                                           202601
+034Não exige CPF/CNS                                                                                   202601
+036Exige Autorização                                                                                   202601
+037Exige CNPJ do Fornecedor                                                                            202601
+038Exige Serviço/Classificação                                                                         202601
+040Registro no SISCAN                                                                                  202601
+041APAC com validade fixa de 12 competências                                                           202601
+042Não Admite Liberação de Crítica de Idade                                                            202601
+043Exige registro de CID de causas associadas                                                          202601
+044Cirurgias Eletivas                                                                                  202601
+045Diárias de Leitos Complementares                                                                    202601
+046Tratamento Ambulatorial de Doenças Crônicas                                                         202601
+047Autorização com limite máximo de 6 meses.                                                           202601
+048Exige CID                                                                                           202601
+049Permite Informação de Equipe Cirúrgica                                                              202601
+050Permite o Registro de Informações do CPF/CNS do(s) Recém-Nascido(s)                                 202601
+051Programa Mais Acesso a Especialistas - Componente Cirurgias Hospitalares                            202601
+052Programa Mais Acesso a Especialistas - Componente Cirurgias Ambulatoriais.                          202601
+053Programa Mais Acesso a Especialistas (PMAE)                                                         202601
+054APAC com validade fixa de 2 competências.                                                           202601
+055Exige data do resultado diagnóstico de Neoplasia                                                    202601
+056Exige procedimento de tomografia computadorizada                                                    202601
+057Exige procedimento de ressonância magnética                                                         202601
+058Obrigatório CPF                                                                                     202601
+059Componente Complementar - Modalidade 2                                                              202601
+060Componente Complementar - Modalidade 3                                                              202601

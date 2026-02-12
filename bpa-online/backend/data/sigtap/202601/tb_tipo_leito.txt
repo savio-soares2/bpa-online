@@ -1,0 +1,41 @@
+01Cirúrgico                                                   202601
+02Obstétricos                                                 202601
+03Clínico                                                     202601
+04Crônicos                                                    202601
+05Psiquiatria                                                 202601
+06Pneumologia Sanitária (Tisiologia)                          202601
+07Pediátricos                                                 202601
+08Reabilitação                                                202601
+09Leito Dia / Cirúrgicos                                      202601
+10Leito Dia / Aids                                            202601
+11Leito Dia / Fibrose Cística                                 202601
+12Leito Dia / Intercorrência Pós-Transplante                  202601
+13Leito Dia / Geriatria                                       202601
+14Leito Dia / Saúde Mental                                    202601
+17Estabelecimento Exclusivo UTI SUS                           202601
+51UTI II ADULTO-SINDROME RESP. AGUDA GRAVE (SRAG)-COVID-19    202601
+52UTI II PEDIATRICO-SINDROME RESP. AGUDA GRAVE (SRAG)-COVID-19202601
+65Unidade Intermediária Neonatal                              202601
+74UTI-PED TIPO II                                             202601
+75UTI-A TIPO II                                               202601
+76UTI-A TIPO III                                              202601
+77UTI Infantil I                                              202601
+78UTI Infantil II                                             202601
+79UTI-PED TIPO III                                            202601
+80UTI Neonatal I                                              202601
+81UTI Neonatal II                                             202601
+82UTI Neonatal III                                            202601
+83UTI-Q                                                       202601
+84Acolhimento Noturno                                         202601
+85UCO TIPO II                                                 202601
+86UCO TIPO III                                                202601
+87Saúde Mental (Clínico)                                      202601
+88Queimado Adulto (Clínico)                                   202601
+89Queimado Pediátrico (Clínico)                               202601
+90Queimado Adulto (Cirúrgico)                                 202601
+91Queimado Pediátrico (Cirúrgico)                             202601
+92UCI Unidade de Cuidados Intermediarios Neonatal Convencional202601
+93UCI Unidade de Cuidados Intermediarios Neonatal Canguru     202601
+94UCI-PED                                                     202601
+95UCI-A                                                       202601
+96Suporte Ventilatório Pulmonar                               202601

@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: bpa_postgres
+    environment:
+      POSTGRES_USER: bpa_user
+      POSTGRES_PASSWORD: bpa_secret_2024
+      POSTGRES_DB: bpa_online
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/init_db.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bpa_user -d bpa_online"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - bpa-network
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend_django/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend_django:/app/backend_django
+      - ./backend:/app/backend
+      - ./BPA-main:/app/BPA-main
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATABASE_URL=postgresql://bpa_user:bpa_secret_2024@postgres:5432/bpa_online
+    env_file:
+      - .env
+    command: python manage.py runserver 0.0.0.0:8000
+    networks:
+      - bpa-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+    command: npm start
+    networks:
+      - bpa-network
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+
+networks:
+  bpa-network:
+    driver: bridge

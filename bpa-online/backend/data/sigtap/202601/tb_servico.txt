@@ -1,0 +1,73 @@
+100Serviço de Atenção a Saúde no Sistema Penitenciário                                                                     202601
+101Estratégia de Saúde da Família                                                                                          202601
+102Estratégias de Agentes Comunitário de Saúde                                                                             202601
+103Serviço de Atendimento Móvel de Urgências                                                                               202601
+104Regulação Assistêncial dos Serviços de Saúde                                                                            202601
+105Serviço de Atenção em Neurologia/ Neurocirurgia                                                                         202601
+106Serviço de Atenção a DST/HIV/AIDS                                                                                       202601
+107Atenção à Saúde Auditiva                                                                                                202601
+108Atenção a Saúde do Trabalhador                                                                                          202601
+109Serviço de Atenção a Saúde dos Adolecentes em Conflito com a Lei, em Regime de Internação e Internação Provisória       202601
+110Serviço de Atenção a Saúde Reprodutiva                                                                                  202601
+111Serviço de Atenção ao Paciente com Tuberculose                                                                          202601
+112Serviço de Atenção ao Pré-Natal e Nascimento                                                                            202601
+113Serviço de Atenção Domiciliar                                                                                           202601
+114Serviço de Atenção em Saúde Bucal                                                                                       202601
+115Serviço de Atenção Psicossocial                                                                                         202601
+116Serviço de Atenção Cardiovascular/Cardiologia                                                                           202601
+117Serviço de Cirurgia Reparadora                                                                                          202601
+118Serviço de Cirurgia Torácica                                                                                            202601
+119Serviço de Controle de Tabagismo                                                                                        202601
+120Serviço de Diagnóstico por Anatomia Patológica e/ou Citopatologia                                                       202601
+121Diagnóstico por Imagem                                                                                                  202601
+122Serviço de Diagnóstico por Métodos Gráficos/Dinâmicos                                                                   202601
+123Serviço de Dispensação de Órteses, Próteses e Materiais Especiais                                                       202601
+124Serviço de Endocrinologia                                                                                               202601
+125Serviço de Farmácia                                                                                                     202601
+126Serviço de Fisioterapia                                                                                                 202601
+127Serviço de Atenção à Obesidade                                                                                          202601
+128Serviço de Hemoterapia                                                                                                  202601
+129Servico de Laboratório de Histocompatibilidade                                                                          202601
+130Atenção à Doença Renal Crônica                                                                                          202601
+131Serviço de Oftalmologia                                                                                                 202601
+132Serviço de Oncologia                                                                                                    202601
+133Serviço de Pneumologia                                                                                                  202601
+134Serviço de Práticas Integrativas e Complementares                                                                       202601
+135Serviço de Reabilitação                                                                                                 202601
+136Serviço de Suporte Nutricional                                                                                          202601
+137Serviço de Telemedicina                                                                                                 202601
+138Serviço de Traumato-Ortopedia                                                                                           202601
+139Serviço de Triagem Neonatal                                                                                             202601
+140Serviço de Urgência e Emergência                                                                                        202601
+141Serviço de Vigilância em Saúde                                                                                          202601
+142Serviço de Endoscopia                                                                                                   202601
+143Serviço Móvel de Urgência (exceto SAMU)                                                                                 202601
+144Serviço Posto de Coleta de Materiais Biológicos                                                                         202601
+145Serviço de Diagnóstico por Laboratório Clínico                                                                          202601
+146Serviço de Videolaparoscopia                                                                                            202601
+147Serviço de Apoio a Saúde da Família                                                                                     202601
+148Hospital-Dia                                                                                                            202601
+149Transplante                                                                                                             202601
+150Cirurgia Vascular                                                                                                       202601
+151Medicina Nuclear                                                                                                        202601
+152Atenção à Saúde da População Indígena                                                                                   202601
+153Atenção Especializada no Processo Transexualizador                                                                      202601
+154Serviço de Banco de Tecidos                                                                                             202601
+155Serviço de Traumatologia  Ortopedia                                                                                     202601
+157Serviço de Laboratorio de Protese Dentaria                                                                              202601
+158Serviço de Atenção Integral em Hanseniase                                                                               202601
+159Atenção Primária                                                                                                        202601
+160Teleconsultoria                                                                                                         202601
+161Consultório na Rua                                                                                                      202601
+162Serviço de Terapia Intensiva                                                                                            202601
+163Serviço de Cuidados Intermediários                                                                                      202601
+164Serviço de Órteses,Próteses e Materiais Especiais em Reabilitação                                                       202601
+165Atenção às Pessoas em Situação de Violência Sexual                                                                      202601
+166Serviço de  Análise Laboratorial  de Produtos Sujeitos á  Vigilância Sanitária                                          202601
+167Atendimento Itinerante de Asistência e Ensino em Saúde                                                                  202601
+168Atenção Às Pessoas com Doenças Raras                                                                                    202601
+169Serviço de Atenção em Urologia                                                                                          202601
+170Comissões e Comitês                                                                                                     202601
+171Cuidados Paliativos                                                                                                     202601
+173Logística de Imunobiológicos                                                                                            202601
+174Imunização                                                                                                              202601

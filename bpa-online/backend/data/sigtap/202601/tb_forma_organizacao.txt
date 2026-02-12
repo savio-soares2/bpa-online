@@ -1,0 +1,414 @@
+090401Ofertas de Cuidados Integrados em Otorrinolaringologia.                                             202601
+090501Ofertas de Cuidados Integrados em Oftalmologia.                                                     202601
+090601Ofertas de Cuidados Integrados em Saúde da Mulher - Ginecologia.                                    202601
+010101Educação em saúde                                                                                   202601
+010201Vigilancia sanitária                                                                                202601
+020101Coleta de material por meio de punção/biópsia                                                       202601
+020201Exames bioquimicos                                                                                  202601
+020301Exames citopatológicos                                                                              202601
+020401Exames radiológicos da cabeça e pescoço                                                             202601
+020501Ultra-sonografias do sistema circulatório (qualquer região anatômica)                               202601
+020601Tomografia da cabeça, pescoço e coluna vertebral                                                    202601
+020701RM da cabeça, pescoço e coluna vertebral                                                            202601
+020801Aparelho cardiovascular                                                                             202601
+020901Aparelho digestivo                                                                                  202601
+021001Exames radiológicos de vasos sangüíneos e linfáticos                                                202601
+021101Diagnóstico em angiologia                                                                           202601
+021201Exames do doador/receptor                                                                           202601
+021301Exames relacionados a doenças e agravos de notificação compulsória                                  202601
+021401Teste realizado fora da estrutura de laboratório                                                    202601
+030101Consultas médicas/outros profissionais  de nivel superior                                           202601
+030201Assistência fisioterapêutica em alterações obstétricas, neonatais e uroginecológicas                202601
+030301Tratamento de doenças infecciosas e parasitárias                                                    202601
+030401Radioterapia                                                                                        202601
+030501Tratamento dialítico                                                                                202601
+030601Procedimentos destinados a obtenção do sangue para fins de assistência hemoterapica                 202601
+030701Dentística                                                                                          202601
+030801Traumatismos                                                                                        202601
+030901Terapia nutricional                                                                                 202601
+031001Parto e nascimento                                                                                  202601
+031101Ações Assistenciais                                                                                 202601
+040101Pequenas cirurgias                                                                                  202601
+040201Cirurgia de tireóide e paratireóide                                                                 202601
+040301Trauma e anomalias do desenvolvimento                                                               202601
+040401Cirurgia das vias aéreas superiores e do pescoço                                                    202601
+040501Palpebras e vias lacrimais                                                                          202601
+040601Cirurgia cardiovascular                                                                             202601
+040701Esôfago, estômago e duodeno                                                                         202601
+040801Cintura escapular                                                                                   202601
+040901Rim, ureter e bexiga                                                                                202601
+041001Mama                                                                                                202601
+041101Parto                                                                                               202601
+041201Traqueia e brônquios                                                                                202601
+041301Tratamento de queimados                                                                             202601
+041401Buco-maxilo-facial                                                                                  202601
+041501Múltiplas                                                                                           202601
+041601Urologia                                                                                            202601
+041701Anestesias                                                                                          202601
+041801Acessos para dialise                                                                                202601
+050101Coleta e exames para identificação de doador de células-tronco hematopoéticas (busca nacional)      202601
+050201Avaliação clínica de morte encefálica                                                               202601
+050301Ações relacionadas a doação de orgãos e tecidos para transpalnte                                    202601
+050401Processamento de córnea/esclera                                                                     202601
+050501Transplante de tecidos e células                                                                    202601
+050601Acompanhamento de paciente no pré e pós-transplante                                                 202601
+060101Agentes anticitocinas                                                                               202601
+060201Procoagulantes em coagulopatias hereditárias                                                        202601
+060301Antiinflamatórios                                                                                   202601
+060401Acido Aminosalicilico e Similares                                                                   202601
+070101OPM auxiliares da locomoção                                                                         202601
+070201OPM em neurocirurgia                                                                                202601
+080101Incentivos                                                                                          202601
+080201Diárias                                                                                             202601
+080301Deslocamento/Ajuda de custo                                                                         202601
+080401Ações de Telessaúde entre Profissionais de Saúde                                                    202601
+090101Ofertas de Cuidados Integrados em Oncologia                                                         202601
+090201Ofertas de Cuidados Integrados em Cardiologia                                                       202601
+090301Ofertas de Cuidados Integrados em Ortopedia                                                         202601
+010102Saúde bucal                                                                                         202601
+080402Atendimentos em Saúde Mediados por Tecnologias Digitais                                             202601
+020102Outras formas de coleta de material                                                                 202601
+020202Exames hematológicos e hemostasia                                                                   202601
+020302Exames anatomopatológicos                                                                           202601
+020402Exames radiológicos da coluna vertebral                                                             202601
+020502Ultra-sonografias dos demais sistemas                                                               202601
+020602Tomografia do torax e membros superiores                                                            202601
+020702RM do torax e membros superiores                                                                    202601
+020802Aparelho digestivo                                                                                  202601
+020902Aparelho urinário                                                                                   202601
+021002Vias biliares                                                                                       202601
+021102Diagnóstico em cardiologia                                                                          202601
+021202Procedimentos especiais em hemoterápica                                                             202601
+021302Exames relacionados ao meio ambiente                                                                202601
+030102Atendimento/Acompanhamento em saúde do trabalhador                                                  202601
+030202Assistência fisioterapêutica em alterações oncológicas                                              202601
+030302Tratamento de doenças do sangue, orgãos hematopoéticos e alguns transtornos imunitários             202601
+030402Quimioterapia paliativa - adulto                                                                    202601
+030502Tratamento em nefrologia em geral                                                                   202601
+030602Medicina transfusional                                                                              202601
+030702Endodontia                                                                                          202601
+030802Intoxicações e envenenamentos                                                                       202601
+030902Terapias em doenças alérgicas                                                                       202601
+031102Ações Matriciais                                                                                    202601
+040102Cirurgias de pele, tecido subcutâneo e mucosa                                                       202601
+040202Cirurgia da suprarrenal                                                                             202601
+040302Coluna e nervos periféricos                                                                         202601
+040402Cirurgia da face e do sistema estomatognático                                                       202601
+040502Músculos oculomotores                                                                               202601
+040602Cirurgia vascular                                                                                   202601
+040702Intestinos , reto e anus                                                                            202601
+040802Membros superiores                                                                                  202601
+040902Uretra                                                                                              202601
+041102Outras cirurgias relacionadas com o estado gestacional                                              202601
+041202Mediastino                                                                                          202601
+041302Reparadora em oncológica                                                                            202601
+041402Cirurgia oral                                                                                       202601
+041502Sequenciais                                                                                         202601
+041602Sistema linfático                                                                                   202601
+041802Intervençõess cirúrgicas em acessos para diálise                                                    202601
+050102Exames de histocompatibilidade para identificação de receptor de células-tronco hematopoéticas      202601
+050302Cirurgias para transplante - doador vivo                                                            202601
+050402Processamento de tecido ósteo-fascio-condro-ligamentoso humano                                      202601
+050502Transplante de orgãos                                                                               202601
+050602Intercorrência pós transplante                                                                      202601
+060102Antagonista do glutamato                                                                            202601
+060302Imunossupressores                                                                                   202601
+060402Agentes Quelantes de Ferro                                                                          202601
+070102OPM ortopédicas                                                                                     202601
+070202OPM em cirurgia buco-maxilo-facial                                                                  202601
+080202Outras ações                                                                                        202601
+010202Vigilância em saúde do trabalhador                                                                  202601
+010103Visita domiciliar                                                                                   202601
+080403Ações de Vigilância em Saúde Mediadas por Tecnologias Digitais                                      202601
+020203Exames sorológicos e imunológicos                                                                   202601
+020403Exames radiológicos do torax e mediastino                                                           202601
+020603Tomografia do abdomen, pelve e membros inferiores                                                   202601
+020703RM do abdomen, pelve e membros inferiores                                                           202601
+020803Aparelho endócrino                                                                                  202601
+020903Aparelho ginecológico                                                                               202601
+021103Diagnóstico cinético funcional                                                                      202601
+030103Atendimento pré-hospitalar de urgência                                                              202601
+030203Assistência fisioterapêutica em oftalmologia                                                        202601
+030303Tratamento de doenças endocrinas, metabólicas e nutricionais                                        202601
+030403Quimioterapia para controle temporário de doença - adulto                                           202601
+030703Periodontia clínica                                                                                 202601
+030803Outras consequências de causas externas                                                             202601
+030903Terapias do aparelho geniturinário                                                                  202601
+040303Tumores do sistema nervoso                                                                          202601
+040403Anomalia Crânio e bucomaxilo facial                                                                 202601
+040503Corpo vítreo, retina, coróide e esclera                                                             202601
+040603Cardiologia intervencionista                                                                        202601
+040703Pancreas, baco, figado e vias biliares                                                              202601
+040803Coluna vertebral e caixa torácica                                                                   202601
+040903Próstata e vesicula seminal                                                                         202601
+041203Pleura                                                                                              202601
+041303Reparadora para lipodistrofia                                                                       202601
+041503Politraumatizados                                                                                   202601
+041603Cabeça e pescoço                                                                                    202601
+050103Coleta e exames para ident. de doador de célula-tronco hematopoéticas (busca internacional/nacional)202601
+050303Manutenção e retirada de orgãos e tecidos para transplante                                          202601
+050403Processamento de válvula/tubo valvado cardíaco humano                                               202601
+060103Antianêmicos não hormonais                                                                          202601
+060303Imunoterápicos                                                                                      202601
+060403Agonistas da Dopamina/inibidor da prolactina                                                        202601
+070103OPM em Otorrinolaringologia.                                                                        202601
+070203OPM em ortopedia                                                                                    202601
+010203Vigilância epidemiológica - vacinas                                                                 202601
+010104Alimentação e nutrição                                                                              202601
+020204Exames coprológicos                                                                                 202601
+020404Exames radiológicos da cintura escapular e dos membros superiores                                   202601
+020804Aparelho geniturinário                                                                              202601
+020904Aparelho respiratório                                                                               202601
+021104Diagnóstico em ginecologia-obstetrícia                                                              202601
+030104Outros atendimentos realizados por profissionais de níveis superior                                 202601
+030204Assistência fisioterapêutica cardiovasculares e pneumo-funcionais                                   202601
+030304Tratamento de doenças do sistema nervoso central e periférico                                       202601
+030404Quimioterapia prévia (neoadjuvante/citorredutora)- adulto                                           202601
+030704Moldagem/Manutenção                                                                                 202601
+030804Complicações consequentes a procedimentos em saúde                                                  202601
+030904Terapias do aparelho cardiovascular                                                                 202601
+040304Neurocirurgias vasculares                                                                           202601
+040504Cavidade orbitária e globo ocular                                                                   202601
+040604Cirurgia endovascular                                                                               202601
+040704Parede e cavidade abdominal                                                                         202601
+040804Cintura pélvica                                                                                     202601
+040904Bolsa escrotal, testículos e cordão espermático                                                     202601
+041204Parede torácica                                                                                     202601
+041304Outras cirurgias plásticas/reparadoras                                                              202601
+041504Procedimentos cirúrgicos gerais                                                                     202601
+041604Esôfago-gastro duodenal e vísceras anexas e outros orgãos intra-abdominais                          202601
+050104Exames imunogenéticos/histocompatibilidade para identificação de doador de orgãos                   202601
+050304Açõess complementares destinadas a doação de orgãos, tecidos e células.                             202601
+050404Processamento de pele humana                                                                        202601
+060104Antianêmicos hormonais                                                                              202601
+060304Reguladores de atividade hormonal - inibidores da prolactina                                        202601
+060404Agonistas seletivos dos receptores beta 2 adrenérgicos                                              202601
+070104OPM oftalmológicas                                                                                  202601
+070204OPM em assistência cardiovascular                                                                   202601
+080404Transplante                                                                                         202601
+060105Antiasmáticos                                                                                       202601
+060305Antitrombóticos                                                                                     202601
+060405Alcalóides naturais do ópio                                                                         202601
+070105OPM em gastroenterologia                                                                            202601
+070205OPM comuns                                                                                          202601
+010105Praticas integrativas/complementares                                                                202601
+020205Exames de uroanálise                                                                                202601
+020405Exames radiológicos do abdomen e pelve                                                              202601
+020805Aparelho esquelético                                                                                202601
+021105Diagnóstico em neurologia                                                                           202601
+030105Atenção domiciliar                                                                                  202601
+030205Assistência fisioterapêutica nas disfunções musculo esqueleticas (todas as origens)                 202601
+030305Tratamento de doenças do aparelho da visão                                                          202601
+030405Quimioterapia adjuvante (profilática) - adulto                                                      202601
+030705Estomatologia.                                                                                      202601
+030905Práticas integrativas e complementares                                                              202601
+040305Tratamento neurocirúrgico da dor funcional                                                          202601
+040505Conjuntiva, córnea, câmara anterior, íris, corpo ciliar e cristalino                                202601
+040605Eletrofisiologia                                                                                    202601
+040805Membros inferiores                                                                                  202601
+040905Pênis                                                                                               202601
+041205Pulmão                                                                                              202601
+041605Colo-proctologia                                                                                    202601
+050105Exames imunogenéticos/histocompatibilidade para identificação de receptor de orgãos                 202601
+050405Processamento de Membrana Amniótica.                                                                202601
+020406Exames radiológicos da cintura pélvica e dos membros inferiores                                     202601
+030106Consulta/Atendimento ás urgências (em geral)                                                        202601
+060306Tensiolítico alveolar                                                                               202601
+020206Exames hormonais                                                                                    202601
+021106Diagnóstico em oftalmologia                                                                         202601
+060106Antibióticos                                                                                        202601
+040806Gerais                                                                                              202601
+040306Investigação e cirurgia da epilepsia                                                                202601
+060406Alimentos dietéticos isentos de fenilalanina                                                        202601
+050106Exames gráficos ou por imagem para diagnóstico de morte encefálica                                  202601
+030906Acessos venosos                                                                                     202601
+030406Quimioterapia curativa - adulto                                                                     202601
+070106OPM em urologia                                                                                     202601
+041606Ginecologia                                                                                         202601
+030306Tratamento de doenças cardiovasculares                                                              202601
+030206Assistência fisioterapêutica nas alterações em neurologia                                           202601
+070206OPM em urologia                                                                                     202601
+040906Útero e anexos                                                                                      202601
+020806Aparelho nervoso                                                                                    202601
+020207Exames toxicológicos ou de monitorização terapêutica                                                202601
+070207OPM em cirurgias oftálmicas                                                                         202601
+070107OPM em odontologia                                                                                  202601
+060407Aminas Terciárias                                                                                   202601
+060307Hemoderivados                                                                                       202601
+060107Antiepiléticos                                                                                      202601
+050107Outros exames complementares para doação de orgãos, tecidos e células                               202601
+041607Oftalmologia                                                                                        202601
+040907Vagina, vulva e períneo                                                                             202601
+040307Tratamento neuro-endovascular                                                                       202601
+030907Angiologia                                                                                          202601
+030407Quimioterapia de tumores de crianca e adolescente                                                   202601
+030307Tratamento de doenças do aparelho digestivo                                                         202601
+030207Assistência fisioterapêutica em queimados                                                           202601
+030107Atendimento/acompanhamento em reabilitação física, mental, visual e múltiplas deficiências          202601
+021107Diagnóstico em otorrinolaringologia/fonoaudiologia                                                  202601
+020807Aparelho respiratório                                                                               202601
+030908Terapia Gênica                                                                                      202601
+020208Exames microbiológicos                                                                              202601
+040308Neurocirurgia funcional estereotáxica                                                               202601
+020808Aparelho hematológico                                                                               202601
+060308Medicamentos para transplante                                                                       202601
+021108Diagnóstico em pneumologia                                                                          202601
+070208OPM em cirurgia plástica/reparadora                                                                 202601
+030108Atendimento/Acompanhamento psicossocial                                                             202601
+041608Pele e cirurgia plástica                                                                            202601
+050108Exames complementares para pacientes transplantados                                                 202601
+060408Aminoquinolinas                                                                                     202601
+030408Quimioterapia - procedimentos especiais                                                             202601
+070108OPM de anomalias buco-maxilo-facial                                                                 202601
+040908Atenção Especializada à Saúde da População Trans.                                                   202601
+030308Tratamento de doenças da pele e do tecido  subcutâneo                                               202601
+060108Antiinflamatórios                                                                                   202601
+060109Antiinflamatórios intestinais                                                                       202601
+030409Medicina nuclear - terapêutica oncológica                                                           202601
+070209OPM em cirurgia de otorrinolaringologia                                                             202601
+021109Diagnóstico em urologia                                                                             202601
+060409Análogos da mostarda nitrogenada                                                                    202601
+030109Atendimento/Acompanhamento em saúde do idoso                                                        202601
+060309Terapia Gênica                                                                                      202601
+020209Exames em outros líquidos biológicos                                                                202601
+020809Outros métodos de diagnóstico em medicina nuclear in vivo                                           202601
+041609Ossos e partes moles                                                                                202601
+070109Substituição/Troca em órteses/próteses                                                              202601
+030309Tratamento de doenças do sistema osteomuscular e do tecido conjuntivo                               202601
+030310Tratamento durante a gestação, parto e puerpério                                                    202601
+030410Gerais em oncologia                                                                                 202601
+070110OPM em queimados                                                                                    202601
+021110Diagnóstico em psicologia-psiquiatria                                                               202601
+041610Neurocirurgia                                                                                       202601
+060410Vasopressina e Análogos                                                                             202601
+030110Atendimentos de enfermagem (em geral)                                                               202601
+070210OPM em nefrologia                                                                                   202601
+060110Antiparkinsonianos                                                                                  202601
+020210Exames de genética                                                                                  202601
+030111Atendimento/Acompanhamento queimados                                                                202601
+021111Diagnóstico em cardiologia intervencionista                                                         202601
+020211Exames para triagem neonatal                                                                        202601
+070211OPM em queimados                                                                                    202601
+060411Análogos do hormônio liberador de gonadotrofina                                                     202601
+060111Antipsicóticos                                                                                      202601
+041611Cirurgia torácica                                                                                   202601
+030311Tratamento de malformações congênitas, deformidades e anomalias cromossômicas                       202601
+060412Antiandrogênios                                                                                     202601
+021112Diagnóstico em traumato-ortopedia                                                                   202601
+070212OPM para transplantes                                                                               202601
+060112Antivirais                                                                                          202601
+020212Exames imunohematológicos                                                                           202601
+030112Atendimento/acompanhamento de diagnóstico de doenças endocrinas/metabolicas e nutricionais          202601
+041612Mastologia                                                                                          202601
+030312Tratamentos por medicina nuclear in vivo                                                            202601
+060113Bloqueadores neuromusculares                                                                        202601
+041613Otorrinolaringologia                                                                                202601
+030113Acompanhamento em outras especialidades                                                             202601
+030313Tratamento de pacientes sob cuidados prolongados                                                    202601
+060413Anticolinesterases                                                                                  202601
+060414Antigonadotrofinas e agentes similares                                                              202601
+060114Ceratolíticos sistêmicos                                                                            202601
+030114Cuidados Paliativos                                                                                 202601
+030314Tratamento de doenças do ouvido/apófise mastóide e vias aéreas                                      202601
+060115Complementos alimentares para fenilcetonúricos                                                      202601
+060415Barbitúricos e derivados                                                                            202601
+030315Tratamento das doenças do aparelho geniturinário                                                    202601
+030115Atenção Especializada à Saúde da População Trans.                                                   202601
+060116Fatores de crescimento mielóides                                                                    202601
+030116Atenção Especializada à Pessoa com Falência Intestinal                                              202601
+030316Tratamento de algumas afecçõess originadas no período neonatal                                      202601
+060416Bisfosfonados                                                                                       202601
+060417Compostos de Alumínio                                                                               202601
+060117Hipnoanalgésicos                                                                                    202601
+030317Tratamento dos transtornos mentais e comportamentais                                                202601
+060118Hipolipemiantes                                                                                     202601
+060418Derivados da benzodiazepina                                                                         202601
+030318Tratamento HIV/Aids                                                                                 202601
+060119Imunomoduladores                                                                                    202601
+060419Derivados de ácidos graxos                                                                          202601
+030319Reabilitação                                                                                        202601
+060120Imunossupressores                                                                                   202601
+060420Derivados do adamantano                                                                             202601
+060121Imunoterapicos                                                                                      202601
+060421Derivados do indol                                                                                  202601
+060122Inibidores da acetilcolinesterase                                                                   202601
+060422Derivados da succinimida                                                                            202601
+060123Mucolíticos                                                                                         202601
+060423Diazepinas, oxazepinas e tiazepinas                                                                 202601
+060124Quelantes do ferro                                                                                  202601
+060424 Enzimas                                                                                            202601
+060125Outros quelantes                                                                                    202601
+060425Fatores de estimulação de colônias                                                                  202601
+060126Reguladores da atividade hormonal-agonistas da vasopressina                                         202601
+060426Ferro trivalente, preparações parenterais                                                           202601
+060127Reguladores da atividade hormonal-analogos do GNRH                                                  202601
+060427Fibratos, Acido Nicotínico e seus derivados                                                         202601
+060128Reguladores da atividade hormonal-antiandrogênicos                                                  202601
+060428Glicocorticóides                                                                                    202601
+060429Somatostatina e Análogos                                                                            202601
+060129Reguladores da atividade hormonal-inibidores das gonadotrofinas                                     202601
+060130Reguladores da atividade hormonal-inibidores do hormônio do crescimento                             202601
+060430 Imunoglobulinas específicas                                                                        202601
+060131Reguladores da atividade hormonal-inibidores de prolactina                                          202601
+060431Imunoglobulinas, humana normal                                                                      202601
+060132Reguladores da atividade hormonal-hormonios de crescimento                                          202601
+060432Imunossupressores seletivos                                                                         202601
+060433Inibidores da agregação plaquetária, excluindo heparina                                             202601
+060133Reguladores da atividade hormonal-hormonios tireoidianos                                            202601
+060134Reguladores da atividade hormonal-mineralocorticóides                                               202601
+060434Inibidores da calcineurina                                                                          202601
+060135Reguladores da homeostase do cálcio                                                                 202601
+060435Inibidores da fosfodiesterase                                                                       202601
+060136Repositores enzimáticos                                                                             202601
+060436Inibidores da HMG-CoA redutase                                                                      202601
+060437Inibidores da monoamino oxidase tipo b                                                              202601
+060438Inibidores do fator de necrose tumoral alfa (TNF-a)                                                 202601
+060439Interferonas                                                                                        202601
+060440Medicamentos para tratamento da hipercalemia e hiperfosfatemia                                      202601
+060441Medicamentos utilizados na dependência de opióides                                                  202601
+060442Mineralocorticóides                                                                                 202601
+060443Modulador seletivo de receptor de estrogênio                                                        202601
+060444Mucolíticos                                                                                         202601
+060445Nucleosídeo e nucleotídeo (excl. inibidores da transcriptase reversa)                               202601
+060446Nucleosídeo e nucleotídeo, Inibidor da transcriptase reversa                                        202601
+060447Outras preparações antianêmicas                                                                     202601
+060448Outros agentes citotóxicos                                                                          202601
+060449Outros agentes dopaminérgicos                                                                       202601
+060450Outros antiepilépticos                                                                              202601
+060451Outros antipsicóticos                                                                               202601
+060452Outros imunoestimulantes                                                                            202601
+060453Outros imunossupressores                                                                            202601
+060454Outros medicamentos do sistema nervoso                                                              202601
+060455Outros relaxantes musculares de ação periférica                                                     202601
+060456Penicilamina e agentes similares                                                                    202601
+060457Preparações de calcitonina                                                                          202601
+060458Preparações de enzimas                                                                              202601
+060459Retinóides para tratamento da acne                                                                  202601
+060460Retinóides para tratamento da psoríase                                                              202601
+060461Somatropina e agonistas da somatropina                                                              202601
+060462Vitamina D e análogos, incluido combinação dos dois                                                 202601
+060463Produtos diversos para o trato alimentar ou metabolismo                                             202601
+060464Inibidores de Protease                                                                              202601
+060465Análogos das Prostaglandinas                                                                        202601
+060466Inibidores da Anidrase Carbonica                                                                    202601
+060467Simpatomiméticos na Terapia de Glaucoma                                                             202601
+060468Anticorpos Monoclonais                                                                              202601
+060469Inibidores de Interleucinas                                                                         202601
+060470Outros Antipsoriaticos de Uso Tópico                                                                202601
+060471Corticoesteróides de Potência Muito Alta (Grupo IV)                                                 202601
+060472Derivados do Ácido Propriônico                                                                      202601
+060473Parassimpaticomiméticos                                                                             202601
+060474Agentes Beta Bloqueadores                                                                           202601
+060475Outros Anti-hipertensivos                                                                           202601
+060476Outros Antivirais                                                                                   202601
+060477Outros Agentes Antiparatireoide                                                                     202601
+060478Insulinas  e análogas                                                                               202601
+060479Outras Drogas para Desordem do Sistema Músculo Esquelético                                          202601
+060480Agentes antitrombóticos                                                                             202601
+060481Outros Aminoglicosídeos                                                                             202601
+060482Inibidores do co-transportador 2 de sódio-glicose (SGLT2)                                           202601
+060483Agentes que atuam no sistema renina- angiotensina                                                   202601
+060484Outras drogas sistêmicas para doenças respiratórias obstrutivas                                     202601
+060485Adrenérgicos em combinação com anticolinérgicos, incluídas combinações triplas com corticosteroides 202601
+060486Outros Produtos para o Sistema Respiratório.                                                        202601
+060487Outros medicamentos afetando a estrutura e a mineralização óssea                                    202601

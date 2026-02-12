@@ -1,0 +1,7 @@
+01Atenção Básica (PAB)                                                                                202601
+02Assistência Farmacêutica                                                                            202601
+04Fundo de Ações Estratégicas e Compensações (FAEC)                                                   202601
+05Incentivo - MAC                                                                                     202601
+06Média e Alta Complexidade (MAC)                                                                     202601
+07Vigilância em Saúde                                                                                 202601
+08Gestão do SUS                                                                                       202601

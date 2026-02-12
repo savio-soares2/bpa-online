@@ -1,0 +1,10 @@
+01BPA (Consolidado)                                 202601
+02BPA (Individualizado)                             202601
+03AIH (Proc. Principal)                             202601
+04AIH (Proc. Especial)                              202601
+05AIH (Proc. Secundário)                            202601
+06APAC (Proc. Principal)                            202601
+07APAC (Proc. Secundário)                           202601
+08RAAS (Atenção Domiciliar)                         202601
+09RAAS (Atenção Psicossocial)                       202601
+10e-SUS APS (Atenção Primária à Saúde)              202601

@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base */
+body {
+  @apply font-sans antialiased;
+}
+
+/* Scrollbar customizada */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full hover:bg-gray-400;
+}
+
+/* Animações */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+/* Campos de formulário */
+input:focus,
+select:focus,
+textarea:focus {
+  @apply outline-none;
+}
+
+/* Tabelas */
+table {
+  @apply border-collapse;
+}
+
+th, td {
+  @apply border-gray-200;
+}
+
+/* Links */
+a {
+  @apply text-primary-600 hover:text-primary-700;
+}
+
+/* Botões */
+button:disabled {
+  @apply cursor-not-allowed opacity-60;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

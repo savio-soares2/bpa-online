@@ -1,0 +1,67 @@
+0401Pequenas cirurgias e cirurgias de pele, tecido subcutâneo e mucosa                                  202601
+0501Coleta e exames para fins de doação de orgãos, tecidos e células e de transplante                   202601
+0201Coleta de material                                                                                  202601
+0101Ações coletivas/individuais em saúde                                                                202601
+0901Atenção em Oncologia                                                                                202601
+0701Órteses, próteses e materiais especiais não relacionados ao ato cirúrgico                           202601
+0601Medicamentos de dispensação excepcional                                                             202601
+0301Consultas / Atendimentos / Acompanhamentos                                                          202601
+0801Ações relacionadas ao estabelecimento                                                               202601
+0302Fisioterapia                                                                                        202601
+0202Diagnóstico em laboratório clínico                                                                  202601
+0102Vigilância em saúde                                                                                 202601
+0902Atenção em Cardiologia                                                                              202601
+0802Ações relacionadas ao atendimento                                                                   202601
+0702Órteses, próteses e materiais especiais relacionados ao ato cirúrgico                               202601
+0602Medicamentos estratégicos                                                                           202601
+0502Avaliação de morte encefálica                                                                       202601
+0402Cirurgia de glândulas endócrinas                                                                    202601
+0203Diagnóstico por anatomia patológica e citopatologia                                                 202601
+0903Atenção em Ortopedia                                                                                202601
+0803Autorização / regulação                                                                             202601
+0503Ações relacionadas à doação de orgãos e tecidos para transplante                                    202601
+0403Cirurgia do sistema nervoso central e periférico                                                    202601
+0303Tratamentos clínicos (outras especialidades)                                                        202601
+0603Medicamentos de âmbito hospitalar e urgência                                                        202601
+0204Diagnóstico por radiologia                                                                          202601
+0604Componente especializado da assistência farmacêutica                                                202601
+0504Processamento de tecidos para transplante                                                           202601
+0804Telessaúde                                                                                          202601
+0904Atenção em Otorrinolaringologia                                                                     202601
+0304Tratamento em oncologia                                                                             202601
+0404Cirurgia das vias aéreas superiores, da face, da cabeça e do pescoço                                202601
+0505Transplante de orgãos, tecidos e células                                                            202601
+0205Diagnóstico por ultrasonografia                                                                     202601
+0405Cirurgia do aparelho da visão                                                                       202601
+0905Atenção em Oftalmologia                                                                             202601
+0305Tratamento em nefrologia                                                                            202601
+0206Diagnóstico por tomografia                                                                          202601
+0306Hemoterapia                                                                                         202601
+0406Cirurgia do aparelho circulatório                                                                   202601
+0506Acompanhamento e intercorrências no pré e pós-transplante                                           202601
+0906Atenção em Saúde Mulher                                                                             202601
+0207Diagnóstico por ressonância magnética                                                               202601
+0307Tratamentos odontológicos                                                                           202601
+0407Cirurgia do aparelho digestivo, orgãos anexos e parede abdominal                                    202601
+0408Cirurgia do sistema osteomuscular                                                                   202601
+0208Diagnóstico por medicina nuclear in vivo                                                            202601
+0308Tratamento de lesões, envenenamentos e outros, decorrentes de causas externas                       202601
+0409Cirurgia do aparelho geniturinário                                                                  202601
+0209Diagnóstico por endoscopia                                                                          202601
+0309Terapias especializadas                                                                             202601
+0310Parto e nascimento                                                                                  202601
+0210Diagnóstico por radiologia intervencionista                                                         202601
+0410Cirurgia de mama                                                                                    202601
+0211Métodos diagnósticos em especialidades                                                              202601
+0311Cuidados Paliativos                                                                                 202601
+0411Cirurgia obstétrica                                                                                 202601
+0412Cirurgia torácica                                                                                   202601
+0212Diagnóstico e procedimentos especiais em hemoterapia                                                202601
+0213Diagnóstico em vigilância epidemiológica e ambiental                                                202601
+0413Cirurgia reparadora                                                                                 202601
+0414Bucomaxilofacial                                                                                    202601
+0214Diagnóstico por teste rápido                                                                        202601
+0415Outras cirurgias                                                                                    202601
+0416Cirurgia em oncologia                                                                               202601
+0417Anestesiologia                                                                                      202601
+0418Cirurgia em nefrologia                                                                              202601

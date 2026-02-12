@@ -1,0 +1,5082 @@
+-- ============================================================
+-- BPA Online - Exportacao COMPLETO
+-- ============================================================
+-- CNES: 4392388
+-- Competencia: 202512
+-- Data de exportacao: 09/02/2026 09:30:06
+-- BPA-I: 16 registros
+-- BPA-C: 213 registros
+-- Total de registros: 229
+-- 
+-- === CORRECOES APLICADAS AUTOMATICAMENTE ===
+-- Registros originais: 229
+-- Registros excluidos: 0
+-- Registros corrigidos: 229
+-- 
+-- Correcoes aplicadas:
+--   - IBGE vazio preenchido: 229
+-- 
+-- ============================================================
+-- ESTE SCRIPT ESTA PRONTO PARA EXECUCAO
+-- Basta importar no Firebird - todos os objetos serao criados
+-- ============================================================
+
+SET TERM ^ ;
+
+-- ============================================================
+-- CRIACAO DO GENERATOR (Sequencia para IDs)
+-- ============================================================
+EXECUTE BLOCK AS
+BEGIN
+  IF (NOT EXISTS(SELECT 1 FROM RDB$GENERATORS WHERE RDB$GENERATOR_NAME = 'GEN_S_PRD_ID')) THEN
+  BEGIN
+    EXECUTE STATEMENT 'CREATE GENERATOR GEN_S_PRD_ID';
+    EXECUTE STATEMENT 'SET GENERATOR GEN_S_PRD_ID TO 0';
+  END
+END^
+
+-- ============================================================
+-- CRIACAO DA TRIGGER (Atribui ID automaticamente)
+-- ============================================================
+CREATE OR ALTER TRIGGER BI_S_PRD_ID FOR S_PRD
+ACTIVE BEFORE INSERT POSITION 0
+AS
+BEGIN
+  IF (NEW.PRD_ID IS NULL) THEN
+    NEW.PRD_ID = GEN_ID(GEN_S_PRD_ID, 1);
+END^
+
+-- ============================================================
+-- INICIO DOS REGISTROS
+-- ============================================================
+
+-- ========== BPA INDIVIDUALIZADO ==========
+
+-- BPA-I #1
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702001899659782',
+    '251510',
+    '001',
+    '01',
+    '0301080232',
+    '898005930786323',
+    'PEDRO RAMALHO ROCHA BARBOSA',
+    '20200104',
+    'M',
+    '01',
+    '010',
+    '172100',
+    '20251202',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77021666',
+    '77',
+    '504 SUL ALAMEDA 11',
+    '22',
+    'HM L CS 02',
+    'PLANO DIRETOR SUL',
+    '63',
+    '984686494',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #2
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '001',
+    '01',
+    '0301080232',
+    '704705788862931',
+    'MYRELLA CARNEIRO MARTINS',
+    '20090824',
+    'F',
+    '04',
+    '010',
+    '172100',
+    '20251211',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77708000',
+    '81',
+    'NAO LOCALIZADO',
+    '01',
+    NULL,
+    'NAO LOCALIZADO',
+    '61',
+    '331524256',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #3
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '001',
+    '02',
+    '0301080232',
+    '702503361051939',
+    'CARLOS DANIEL SANTOS RODRIGUES',
+    '20080809',
+    'M',
+    '04',
+    '010',
+    '172100',
+    '20251215',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77001324',
+    '077',
+    'NAO LOCALIZADO',
+    '01',
+    NULL,
+    'NAO LOCALIZADO',
+    '63',
+    '992196889',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #4
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '001',
+    '03',
+    '0301080232',
+    '705403499390991',
+    'MIGUEL CONCEICAO SILVA',
+    '20190323',
+    'M',
+    '04',
+    '010',
+    '172100',
+    '20251218',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77025268',
+    '77',
+    'ARSO 132 A ALAMEDA 18',
+    '05',
+    'QI 11',
+    'PLANO DIRETOR SUL',
+    '63',
+    '984962680',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #5
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '001',
+    '04',
+    '0301080232',
+    '704608685720526',
+    'HELOISY VITORIA VIEIRA SANTOS',
+    '20130223',
+    'F',
+    '01',
+    '010',
+    '172100',
+    '20251230',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77062046',
+    '81',
+    '38',
+    '23',
+    'QD 35 LO 2',
+    'Jardim Aureny III',
+    '63',
+    '992620788',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #6
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '001',
+    '01',
+    '0301050155',
+    '898004149591832',
+    'MARIA HELENA DE SOUSA LIMA',
+    '20100906',
+    'F',
+    '04',
+    '010',
+    '172100',
+    '20251209',
+    1,
+    NULL,
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77001324',
+    '77',
+    'T 31 CONJ 14',
+    '05',
+    NULL,
+    'PLANO DIRETOR SUL',
+    '63',
+    '92314825',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #7
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '001',
+    '02',
+    '0301050155',
+    '703000867517173',
+    'ANNY GABRYELLE SOUZA DOS SANTO',
+    '20091030',
+    'F',
+    '01',
+    '010',
+    '172100',
+    '20251209',
+    1,
+    NULL,
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77001484',
+    '77',
+    'ARNO 41 ALAMEDA 3',
+    '37',
+    'ACS NEIDE',
+    'PLANO DIRETOR NORTE',
+    '63',
+    '992138512',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #8
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '001',
+    '03',
+    '0301050155',
+    '705605486199716',
+    'VITORIA SILVA OLIVEIRA',
+    '20101018',
+    'F',
+    '04',
+    '010',
+    '172100',
+    '20251209',
+    1,
+    NULL,
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77001324',
+    '77',
+    '603 NORTE ALAMEDA',
+    '01',
+    NULL,
+    'ARNO 71',
+    '63',
+    '991369603',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #9
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '001',
+    '04',
+    '0301050155',
+    '898003421802841',
+    'GEOVANA OLIVEIRA DE CASTRO',
+    '20100727',
+    'F',
+    '01',
+    '010',
+    '172100',
+    '20251209',
+    1,
+    NULL,
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77063732',
+    '77',
+    '38',
+    '12',
+    'RUA NS',
+    'LOTEAMENTO NOVA FLAMBOYANT',
+    '63',
+    '981027211',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #10
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '001',
+    '05',
+    '0301050155',
+    '703000867517173',
+    'ANNY GABRYELLE SOUZA DOS SANTO',
+    '20091030',
+    'F',
+    '01',
+    '010',
+    '172100',
+    '20251223',
+    1,
+    NULL,
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77001484',
+    '77',
+    'ARNO 41 ALAMEDA 3',
+    '37',
+    'ACS NEIDE',
+    'PLANO DIRETOR NORTE',
+    '63',
+    '992138512',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #11
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '001',
+    '06',
+    '0301050155',
+    '898003421802841',
+    'GEOVANA OLIVEIRA DE CASTRO',
+    '20100727',
+    'F',
+    '01',
+    '010',
+    '172100',
+    '20251223',
+    1,
+    NULL,
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77063732',
+    '77',
+    '38',
+    '12',
+    'RUA NS',
+    'LOTEAMENTO NOVA FLAMBOYANT',
+    '63',
+    '981027211',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #12
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000025055157',
+    '251510',
+    '001',
+    '01',
+    '0301080232',
+    '898004608153821',
+    'DAVNY GOMES DOS SANTOS',
+    '20150106',
+    'M',
+    '04',
+    '010',
+    '172100',
+    '20251212',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77060032',
+    '81',
+    'CHAC 68',
+    '10',
+    NULL,
+    'IRMA DULCE',
+    '63',
+    '92210166',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #13
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000644374557',
+    '251510',
+    '001',
+    '01',
+    '0301080232',
+    '898005938916633',
+    'PAULO VITOR BATISTA DA SILVA',
+    '20200419',
+    'M',
+    '04',
+    '010',
+    '172100',
+    '20251210',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77001568',
+    '77',
+    '407 NORTE AL 03 LT 24',
+    '01',
+    'QD 69',
+    'PLANO DIRETOR NORTE',
+    '63',
+    '984151429',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #14
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '001',
+    '01',
+    '0301080232',
+    '700108913784614',
+    'MARIA SOPHIA BARBOSA ALVES',
+    '20151123',
+    'F',
+    '04',
+    '010',
+    '172100',
+    '20251203',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77060206',
+    '81',
+    '22 Quadra 37 Lote 16 Aureny II',
+    '01',
+    NULL,
+    'Jardim Aureny II',
+    '63',
+    '992000331',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #15
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '001',
+    '02',
+    '0301080232',
+    '705008082589251',
+    'LETICIA BARBOSA BANDEIRA',
+    '20120202',
+    'F',
+    '01',
+    '010',
+    '172100',
+    '20251204',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77021060',
+    '4',
+    '308 SUL AL 01',
+    '12',
+    NULL,
+    'PLANO DIRETOR SUL',
+    '63',
+    '991255521',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-I #16
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_CNSPAC, PRD_NMPAC, PRD_DTNASC, PRD_SEXO, PRD_RACA,
+    PRD_NAC, PRD_IBGE, PRD_DTATEN, PRD_QT_P, PRD_CID,
+    PRD_CATEN, PRD_NAUT, PRD_INE, PRD_ORG, PRD_MVM,
+    PRD_CEP_PCNTE, PRD_LOGRAD_PCNTE, PRD_END_PCNTE, PRD_NUM_PCNTE, PRD_COMPL_PCNTE,
+    PRD_BAIRRO_PCNTE, PRD_DDTEL_PCNTE, PRD_TEL_PCNTE, PRD_EMAIL_PCNTE,
+    PRD_SERVICO, PRD_CLASSIFICACAO,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '001',
+    '03',
+    '0301080232',
+    '704804021981144',
+    'DAFFINY CRISTINNY BEZERRA BARR',
+    '20120510',
+    'F',
+    '04',
+    '010',
+    '172100',
+    '20251210',
+    1,
+    'F018',
+    '01',
+    NULL,
+    NULL,
+    'BPI',
+    '202512',
+    '77062135',
+    '81',
+    'RN 3',
+    '15',
+    'QI15 LT15',
+    'Loteamento Lago Sul (Taquaralt',
+    '63',
+    '991092162',
+    NULL,
+    NULL,
+    NULL,
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- ========== BPA CONSOLIDADO ==========
+
+-- BPA-C #1
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '01',
+    '0101040024',
+    '019',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #2
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '02',
+    '0301100039',
+    '019',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #3
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708208659615342',
+    '223605',
+    '001',
+    '03',
+    '0301010048',
+    '019',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #4
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '04',
+    '0101040024',
+    '016',
+    15,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #5
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '05',
+    '0301100039',
+    '016',
+    20,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #6
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '06',
+    '0101040024',
+    '012',
+    7,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #7
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '07',
+    '0301100039',
+    '012',
+    10,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #8
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '001',
+    '08',
+    '0301010064',
+    '016',
+    11,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #9
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '09',
+    '0101040024',
+    '017',
+    28,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #10
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '10',
+    '0301100039',
+    '017',
+    35,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #11
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '11',
+    '0101040024',
+    '013',
+    16,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #12
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '12',
+    '0301100039',
+    '013',
+    20,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #13
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '001',
+    '13',
+    '0301010064',
+    '012',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #14
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '001',
+    '14',
+    '0301010064',
+    '017',
+    17,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #15
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '15',
+    '0101040024',
+    '008',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #16
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '001',
+    '16',
+    '0301100039',
+    '008',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #17
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708208659615342',
+    '223605',
+    '001',
+    '17',
+    '0301010048',
+    '015',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #18
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '001',
+    '18',
+    '0301010064',
+    '008',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #19
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '001',
+    '19',
+    '0301010030',
+    '014',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #20
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707407082684574',
+    '251605',
+    '001',
+    '20',
+    '0301010048',
+    '014',
+    12,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #21
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702101734073799',
+    '251510',
+    '002',
+    '01',
+    '0301080178',
+    '012',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #22
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '002',
+    '02',
+    '0301010048',
+    '016',
+    6,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #23
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702001899659782',
+    '251510',
+    '002',
+    '03',
+    '0301080178',
+    '017',
+    10,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #24
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702001899659782',
+    '251510',
+    '002',
+    '04',
+    '0301010048',
+    '017',
+    12,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #25
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706007337410542',
+    '223605',
+    '002',
+    '05',
+    '0301010048',
+    '016',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #26
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '002',
+    '06',
+    '0301010064',
+    '013',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #27
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '002',
+    '07',
+    '0301010064',
+    '015',
+    11,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #28
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '002',
+    '08',
+    '0301010064',
+    '014',
+    13,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #29
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706007337410542',
+    '223605',
+    '002',
+    '09',
+    '0301010048',
+    '014',
+    6,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #30
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '002',
+    '10',
+    '0301050139',
+    '006',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #31
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '002',
+    '11',
+    '0301080178',
+    '013',
+    8,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #32
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '002',
+    '12',
+    '0301050139',
+    '017',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #33
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706100532660660',
+    '223505',
+    '002',
+    '13',
+    '0301010030',
+    '017',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #34
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '002',
+    '14',
+    '0301100039',
+    '016',
+    7,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #35
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '002',
+    '15',
+    '0101040024',
+    '016',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #36
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '002',
+    '16',
+    '0301080178',
+    '016',
+    7,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #37
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '002',
+    '17',
+    '0301010048',
+    '007',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #38
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702001899659782',
+    '251510',
+    '002',
+    '18',
+    '0301010048',
+    '016',
+    11,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #39
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700704923081072',
+    '322205',
+    '002',
+    '19',
+    '0301100039',
+    '014',
+    33,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #40
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700704923081072',
+    '322205',
+    '002',
+    '20',
+    '0101040024',
+    '014',
+    24,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #41
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700704923081072',
+    '322205',
+    '003',
+    '01',
+    '0301100039',
+    '015',
+    29,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #42
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704103127862977',
+    '223505',
+    '003',
+    '02',
+    '0301010048',
+    '005',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #43
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '003',
+    '03',
+    '0301010048',
+    '014',
+    18,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #44
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '003',
+    '04',
+    '0301050139',
+    '014',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #45
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706409600814287',
+    '223505',
+    '003',
+    '05',
+    '0301010048',
+    '015',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #46
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '003',
+    '06',
+    '0101040024',
+    '009',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #47
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '003',
+    '07',
+    '0301100039',
+    '009',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #48
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '003',
+    '08',
+    '0301010064',
+    '009',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #49
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '003',
+    '09',
+    '0101040024',
+    '015',
+    22,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #50
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708208659615342',
+    '223605',
+    '003',
+    '10',
+    '0301010048',
+    '010',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #51
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '003',
+    '11',
+    '0101040024',
+    '005',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #52
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '003',
+    '12',
+    '0301100039',
+    '005',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #53
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '003',
+    '13',
+    '0101040024',
+    '011',
+    9,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #54
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '003',
+    '14',
+    '0301100039',
+    '011',
+    9,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #55
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706408644654888',
+    '224140',
+    '003',
+    '15',
+    '0301010048',
+    '017',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #56
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000025055157',
+    '251510',
+    '003',
+    '16',
+    '0301080178',
+    '011',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #57
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '003',
+    '17',
+    '0101040024',
+    '006',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #58
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706408644654888',
+    '224140',
+    '003',
+    '18',
+    '0301010030',
+    '016',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #59
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706408644654888',
+    '224140',
+    '003',
+    '19',
+    '0301010048',
+    '016',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #60
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707702672789210',
+    '251605',
+    '003',
+    '20',
+    '0301010030',
+    '015',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #61
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707702672789210',
+    '251605',
+    '004',
+    '01',
+    '0301010048',
+    '015',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #62
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000025055157',
+    '251510',
+    '004',
+    '02',
+    '0301080178',
+    '014',
+    17,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #63
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707702672789210',
+    '251605',
+    '004',
+    '03',
+    '0301010048',
+    '005',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #64
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '004',
+    '04',
+    '0301010064',
+    '010',
+    7,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #65
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707407082684574',
+    '251605',
+    '004',
+    '05',
+    '0301010048',
+    '017',
+    8,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #66
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707407082684574',
+    '251605',
+    '004',
+    '06',
+    '0301010048',
+    '008',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #67
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702101734073799',
+    '251510',
+    '004',
+    '07',
+    '0301080178',
+    '015',
+    16,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #68
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '004',
+    '08',
+    '0301010048',
+    '012',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #69
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702001899659782',
+    '251510',
+    '004',
+    '09',
+    '0301010048',
+    '006',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #70
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '004',
+    '10',
+    '0301010048',
+    '015',
+    9,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #71
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '701803233511472',
+    '251510',
+    '004',
+    '11',
+    '0301010048',
+    '011',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #72
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704507149659120',
+    '223405',
+    '004',
+    '12',
+    '0301010048',
+    '016',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #73
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '004',
+    '13',
+    '0301010030',
+    '046',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #74
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '004',
+    '14',
+    '0301010048',
+    '046',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #75
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '004',
+    '15',
+    '0301080178',
+    '010',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #76
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704307548260398',
+    '223605',
+    '004',
+    '16',
+    '0301010048',
+    '017',
+    7,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #77
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706409600814287',
+    '223505',
+    '004',
+    '17',
+    '0301010048',
+    '006',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #78
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700409942445049',
+    '251605',
+    '004',
+    '18',
+    '0301010048',
+    '011',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #79
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '004',
+    '19',
+    '0301050139',
+    '008',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #80
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '004',
+    '20',
+    '0101040024',
+    '010',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #81
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '005',
+    '01',
+    '0301100039',
+    '010',
+    7,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #82
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '005',
+    '02',
+    '0301010048',
+    '017',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #83
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '005',
+    '03',
+    '0301010030',
+    '010',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #84
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '005',
+    '04',
+    '0301010048',
+    '010',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #85
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '005',
+    '05',
+    '0301010048',
+    '015',
+    9,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #86
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '005',
+    '06',
+    '0301080305',
+    '010',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #87
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707407082684574',
+    '251605',
+    '005',
+    '07',
+    '0301010048',
+    '004',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #88
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707407082684574',
+    '251605',
+    '005',
+    '08',
+    '0301010048',
+    '007',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #89
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '005',
+    '09',
+    '0301080305',
+    '015',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #90
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '005',
+    '10',
+    '0301080305',
+    '009',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #91
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706007337410542',
+    '223605',
+    '005',
+    '11',
+    '0301010048',
+    '013',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #92
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '005',
+    '12',
+    '0301080305',
+    '014',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #93
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '005',
+    '13',
+    '0301010064',
+    '011',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #94
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '005',
+    '14',
+    '0301010048',
+    '011',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #95
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '005',
+    '15',
+    '0301010064',
+    '014',
+    11,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #96
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '005',
+    '16',
+    '0301080305',
+    '008',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #97
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '005',
+    '17',
+    '0301010064',
+    '017',
+    16,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #98
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '005',
+    '18',
+    '0301010064',
+    '018',
+    6,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #99
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '005',
+    '19',
+    '0301010064',
+    '015',
+    11,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #100
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '005',
+    '20',
+    '0301060037',
+    '013',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #101
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '006',
+    '01',
+    '0301010048',
+    '013',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #102
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000644374557',
+    '251510',
+    '006',
+    '02',
+    '0301010030',
+    '012',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #103
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '03',
+    '0101040024',
+    '014',
+    7,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #104
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '04',
+    '0301100039',
+    '014',
+    7,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #105
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '05',
+    '0101040024',
+    '012',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #106
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '06',
+    '0301100039',
+    '012',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #107
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '07',
+    '0101040024',
+    '015',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #108
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '08',
+    '0301100039',
+    '015',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #109
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '09',
+    '0301100039',
+    '010',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #110
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707407082684574',
+    '251605',
+    '006',
+    '10',
+    '0301010030',
+    '012',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #111
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707407082684574',
+    '251605',
+    '006',
+    '11',
+    '0301010048',
+    '012',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #112
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '12',
+    '0101040024',
+    '013',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #113
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '13',
+    '0301100039',
+    '013',
+    6,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #114
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '14',
+    '0101040024',
+    '011',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #115
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '15',
+    '0301100039',
+    '011',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #116
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '16',
+    '0101040024',
+    '017',
+    6,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #117
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '006',
+    '17',
+    '0301100039',
+    '017',
+    8,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #118
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '006',
+    '18',
+    '0301010048',
+    '013',
+    8,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #119
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '006',
+    '19',
+    '0301010064',
+    '013',
+    10,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #120
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '006',
+    '20',
+    '0301010064',
+    '012',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #121
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704602639248326',
+    '224140',
+    '007',
+    '01',
+    '0301010048',
+    '014',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #122
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702603739540740',
+    '223405',
+    '007',
+    '02',
+    '0301010048',
+    '012',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #123
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '007',
+    '03',
+    '0301010048',
+    '017',
+    11,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #124
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '007',
+    '04',
+    '0301010064',
+    '016',
+    8,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #125
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '007',
+    '05',
+    '0301050139',
+    '009',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #126
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '007',
+    '06',
+    '0301050139',
+    '015',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #127
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '007',
+    '07',
+    '0301050139',
+    '018',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #128
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '007',
+    '08',
+    '0301050139',
+    '011',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #129
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700704923081072',
+    '322205',
+    '007',
+    '09',
+    '0301100039',
+    '018',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #130
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700704923081072',
+    '322205',
+    '007',
+    '10',
+    '0101040024',
+    '018',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #131
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706100532660660',
+    '223505',
+    '007',
+    '11',
+    '0301010048',
+    '014',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #132
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000644374557',
+    '251510',
+    '007',
+    '12',
+    '0301010030',
+    '014',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #133
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707702672789210',
+    '251605',
+    '007',
+    '13',
+    '0301010048',
+    '016',
+    13,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #134
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704307548260398',
+    '223605',
+    '007',
+    '14',
+    '0301010030',
+    '018',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #135
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704307548260398',
+    '223605',
+    '007',
+    '15',
+    '0301010048',
+    '018',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #136
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '007',
+    '16',
+    '0301100039',
+    '009',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #137
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707407082684574',
+    '251605',
+    '007',
+    '17',
+    '0301010048',
+    '009',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #138
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '007',
+    '18',
+    '0301010064',
+    '006',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #139
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706408644654888',
+    '224140',
+    '007',
+    '19',
+    '0301010048',
+    '011',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #140
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '007',
+    '20',
+    '0301010030',
+    '010',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #141
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '008',
+    '01',
+    '0301050139',
+    '010',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #142
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '008',
+    '02',
+    '0301010048',
+    '018',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #143
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '008',
+    '03',
+    '0301050139',
+    '018',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #144
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '008',
+    '04',
+    '0301010064',
+    '011',
+    7,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #145
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000025055157',
+    '251510',
+    '008',
+    '05',
+    '0301080461',
+    '016',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #146
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '008',
+    '06',
+    '0301010064',
+    '018',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #147
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '008',
+    '07',
+    '0301080259',
+    '014',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #148
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '008',
+    '08',
+    '0301080259',
+    '012',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #149
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '008',
+    '09',
+    '0301010030',
+    '015',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #150
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '008',
+    '10',
+    '0301010048',
+    '015',
+    6,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #151
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '008',
+    '11',
+    '0301080305',
+    '018',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #152
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '008',
+    '12',
+    '0301010048',
+    '009',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #153
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '008',
+    '13',
+    '0301010048',
+    '016',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #154
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706409600814287',
+    '223505',
+    '008',
+    '14',
+    '0301010048',
+    '007',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #155
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704307548260398',
+    '223605',
+    '008',
+    '15',
+    '0301010030',
+    '012',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #156
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704307548260398',
+    '223605',
+    '008',
+    '16',
+    '0301010048',
+    '012',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #157
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '008',
+    '17',
+    '0301080305',
+    '018',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #158
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '008',
+    '18',
+    '0301080259',
+    '018',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #159
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '008',
+    '19',
+    '0301100039',
+    '018',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #160
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '008',
+    '20',
+    '0301010048',
+    '018',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #161
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '009',
+    '01',
+    '0301100039',
+    '008',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #162
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704602639248326',
+    '224140',
+    '009',
+    '02',
+    '0301010048',
+    '008',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #163
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '009',
+    '03',
+    '0301100039',
+    '005',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #164
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000644374557',
+    '251510',
+    '009',
+    '04',
+    '0301010030',
+    '017',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #165
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '009',
+    '05',
+    '0301100039',
+    '007',
+    5,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #166
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '009',
+    '06',
+    '0301100039',
+    '006',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #167
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '009',
+    '07',
+    '0301010030',
+    '016',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #168
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '009',
+    '08',
+    '0301080305',
+    '017',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #169
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '009',
+    '09',
+    '0301050139',
+    '008',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #170
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '009',
+    '10',
+    '0301010048',
+    '008',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #171
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '009',
+    '11',
+    '0301050147',
+    '014',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #172
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '009',
+    '12',
+    '0301050147',
+    '009',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #173
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '009',
+    '13',
+    '0301010048',
+    '011',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #174
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '009',
+    '14',
+    '0301010048',
+    '013',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #175
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000644374557',
+    '251510',
+    '009',
+    '15',
+    '0301010030',
+    '005',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #176
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000025055157',
+    '251510',
+    '009',
+    '16',
+    '0301010030',
+    '011',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #177
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '009',
+    '17',
+    '0301010048',
+    '013',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #178
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '009',
+    '18',
+    '0301010064',
+    '010',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #179
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '009',
+    '19',
+    '0301010048',
+    '010',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #180
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704307548260398',
+    '223605',
+    '009',
+    '20',
+    '0301010048',
+    '011',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #181
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '010',
+    '01',
+    '0301010064',
+    '008',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #182
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '010',
+    '02',
+    '0301010064',
+    '009',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #183
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707702672789210',
+    '251605',
+    '010',
+    '03',
+    '0301010048',
+    '013',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #184
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '010',
+    '04',
+    '0301010064',
+    '000',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #185
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '010',
+    '05',
+    '0301010048',
+    '008',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #186
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '010',
+    '06',
+    '0301010030',
+    '010',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #187
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '010',
+    '07',
+    '0301010048',
+    '010',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #188
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000644374557',
+    '251510',
+    '010',
+    '08',
+    '0301010030',
+    '015',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #189
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '010',
+    '09',
+    '0301010048',
+    '010',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #190
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708401791771765',
+    '251510',
+    '010',
+    '10',
+    '0301050147',
+    '015',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #191
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '010',
+    '11',
+    '0301010030',
+    '013',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #192
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707005884181231',
+    '322205',
+    '010',
+    '12',
+    '0101040024',
+    '007',
+    4,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #193
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '709803022038497',
+    '225133',
+    '010',
+    '13',
+    '0301010064',
+    '007',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #194
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '010',
+    '14',
+    '0301010048',
+    '007',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #195
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '705000644374557',
+    '251510',
+    '010',
+    '15',
+    '0301010030',
+    '009',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #196
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '010',
+    '16',
+    '0301050139',
+    '017',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #197
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '010',
+    '17',
+    '0301010048',
+    '009',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #198
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '010',
+    '18',
+    '0301050147',
+    '014',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #199
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702603739540740',
+    '223405',
+    '010',
+    '19',
+    '0301010030',
+    '014',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #200
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702603739540740',
+    '223405',
+    '010',
+    '20',
+    '0301010048',
+    '014',
+    3,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #201
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702107778518392',
+    '225125',
+    '011',
+    '01',
+    '0301010064',
+    '007',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #202
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702600748928540',
+    '223505',
+    '011',
+    '02',
+    '0301080259',
+    '006',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #203
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '011',
+    '03',
+    '0301010030',
+    '015',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #204
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '708008880754521',
+    '251510',
+    '011',
+    '04',
+    '0301050139',
+    '016',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #205
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706408644654888',
+    '224140',
+    '011',
+    '05',
+    '0301010030',
+    '012',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #206
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '706408644654888',
+    '224140',
+    '011',
+    '06',
+    '0301010048',
+    '012',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #207
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '700207403897326',
+    '223405',
+    '011',
+    '07',
+    '0301010048',
+    '006',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #208
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '011',
+    '08',
+    '0301010030',
+    '009',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #209
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '011',
+    '09',
+    '0301010048',
+    '009',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #210
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702101734073799',
+    '251510',
+    '011',
+    '10',
+    '0301050147',
+    '012',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #211
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '704203733012181',
+    '223710',
+    '011',
+    '11',
+    '0301010030',
+    '016',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #212
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '702408033938029',
+    '223505',
+    '011',
+    '12',
+    '0101040024',
+    '010',
+    2,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+-- BPA-C #213
+INSERT INTO S_PRD (
+    PRD_UID, PRD_CMP, PRD_CNSMED, PRD_CBO, PRD_FLH, PRD_SEQ, PRD_PA,
+    PRD_IDADE, PRD_QT_P, PRD_ORG, PRD_MVM,
+    PRD_FLPA, PRD_FLCBO, PRD_FLCA, PRD_FLIDA, PRD_FLQT, PRD_FLER, PRD_FLMUN, PRD_FLCID
+) VALUES (
+    '4392388',
+    '202512',
+    '707407082684574',
+    '251605',
+    '011',
+    '13',
+    '0301010048',
+    '018',
+    1,
+    'BPA',
+    '202512',
+    '0', '0', '0', '0', '0', '0', '0', '0'
+);
+
+SET TERM ; ^
+
+-- ============================================================
+-- RESUMO DA IMPORTACAO
+-- ============================================================
+-- Total de registros: 229
+--   - BPA-I: 16
+--   - BPA-C: 213
+-- 
+-- IMPORTANTE: Execute este script no Firebird com:
+-- isql -u SYSDBA -p masterkey BPAMAG.GDB < arquivo.sql
+-- ============================================================
+
+COMMIT;
